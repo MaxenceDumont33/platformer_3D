@@ -1443,3 +1443,28 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.05.12-10.01.29:639][768]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.05.12-10.01.29:639][768]AssetCheck: /Game/Blueprint/InputSystem/PlayerInputContext/IN_PlayerJump Validating asset
 [2026.05.12-10.01.36:988][860]LogDerivedDataCache: C:/Users/md200/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.05.12-10.01.59:804][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.05.12-10.01.59:811][247]LogStreaming: Display: FlushAsyncLoading(475): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.12-10.01.59:813][247]LogChaosDD: Creating Chaos Debug Draw Scene for world GymRoom
+[2026.05.12-10.01.59:814][247]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Scene/GymRoom.GymRoom
+[2026.05.12-10.01.59:814][247]Cmd: MAP LOAD FILE="../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Scene/GymRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.05.12-10.01.59:836][247]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2026.05.12-10.01.59:836][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.12-10.01.59:836][247]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Untitled_1.Untitled_1
+[2026.05.12-10.01.59:854][247]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.12-10.01.59:867][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.05.12-10.01.59:871][247]LogWorld: UWorld::CleanupWorld for GymRoom, bSessionEnded=true, bCleanupResources=true
+[2026.05.12-10.01.59:871][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.12-10.01.59:890][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2026.05.12-10.01.59:950][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2026.05.12-10.01.59:952][247]LogAudio: Display: Audio Device (ID: 1) registered with world 'GymRoom'.
+[2026.05.12-10.01.59:952][247]LogChaosDD: Creating Chaos Debug Draw Scene for world GymRoom
+[2026.05.12-10.01.59:963][247]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.05.12-10.01.59:984][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2026.05.12-10.01.59:989][247]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.05.12-10.01.59:989][247]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,065ms to complete.
+[2026.05.12-10.02.00:156][247]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.12-10.02.06:335][562]LogSlate: External Image Picker: DecompressImage failed
+[2026.05.12-10.02.06:745][573]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
