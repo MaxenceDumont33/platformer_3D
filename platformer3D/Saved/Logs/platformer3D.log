@@ -1417,3 +1417,468 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.05.12-08.17.30:847][493]LogMeshUtilities: Finished distance field build in 1.6s - 126x126x126 sparse distance field, 1.5Mb total, 0.1Mb always loaded, 40% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
 [2026.05.12-08.17.31:193][494]LogMeshUtilities: Finished distance field build in 2.0s - 126x126x126 sparse distance field, 2.0Mb total, 0.1Mb always loaded, 55% occupied, 0 triangles, StaticMesh_HLOD0_Instancing_3
 [2026.05.12-08.18.21:125][736]LogDerivedDataCache: C:/Users/md200/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: ================================================
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: Total job queries 2 550, among them cache hits 615 (24.12%), DDC hits 1 771 (69.45%), Duplicates 114 (4.47%)
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: Tracking 1 821 distinct input hashes that result in 1 135 distinct outputs (62.33%)
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: RAM used: 11,63 MiB of 1,60 GiB budget. Usage: 0.71%
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: Shaders Compiled: 50
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: Jobs assigned 50, completed 50 (100%)
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: Average time worker was idle: 1.70 s
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: Time job spent in pending queue: average 0.58 s, longest 2.37 s
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: Job execution time: average 3.01 s, max 8.40 s
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: Job life time (pending + execution): average 3.58 s, max 8.57
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: Shader code size: total 539,044 KiB, numShaders 50, average 10,78 KiB, min 5,973 KiB, max 20,234 KiB
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 14.15 s
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.03%
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: Jobs were issued in 34 batches (only local compilation was used), average 1.47 jobs/batch
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: Average processing rate: 3.53 jobs/sec
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: Total thread time: 60,911 s
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: Total thread preprocess time: 31,887 s
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: Percentage time preprocessing: 52.35%
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: Effective parallelization: 4.30 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.537902
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 5.44 sec, max 5.44 sec, min 5.44 sec)
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 5.05 sec, max 5.05 sec, min 5.05 sec)
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    3 times, average 2.95 sec, max 3.48 sec, min 1.90 sec)
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    4 times, average 2.35 sec, max 3.59 sec, min 1.26 sec)
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 1.84 sec, max 3.32 sec, min 0.85 sec)
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display:                                             FDebugViewModeVS - 32.25% of total time (compiled   29 times, average 0.68 sec, max 2.25 sec, min 0.27 sec)
+[2026.05.12-08.19.34:494][956]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 15.45% of total time (compiled    4 times, average 2.35 sec, max 3.59 sec, min 1.26 sec)
+[2026.05.12-08.19.34:495][956]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 14.51% of total time (compiled    3 times, average 2.95 sec, max 3.48 sec, min 1.90 sec)
+[2026.05.12-08.19.34:495][956]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.06% of total time (compiled    3 times, average 1.84 sec, max 3.32 sec, min 0.85 sec)
+[2026.05.12-08.19.34:495][956]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 8.94% of total time (compiled    1 times, average 5.44 sec, max 5.44 sec, min 5.44 sec)
+[2026.05.12-08.19.34:495][956]LogShaderCompilers: Display: === Material stats ===
+[2026.05.12-08.19.34:495][956]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.05.12-08.19.34:495][956]LogShaderCompilers: Display: Materials Translated:    142
+[2026.05.12-08.19.34:495][956]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2026.05.12-08.19.34:495][956]LogShaderCompilers: Display: Material Translation Only: 0.04 s (37%)
+[2026.05.12-08.19.34:495][956]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.05.12-08.19.34:495][956]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.05.12-08.19.34:495][956]LogShaderCompilers: Display: ================================================
+[2026.05.12-08.19.43:071][ 65]LogSlate: Took 0.007734 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.05.12-08.19.52:256][581]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.05.12-08.19.52:263][581]LogContentBrowser: Creating deferred item: NewFolder
+[2026.05.12-08.19.52:320][583]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.05.12-08.19.58:341][945]LogContentBrowser: Attempting asset rename: NewFolder -> Player
+[2026.05.12-08.19.58:343][945]LogContentBrowser: End creating deferred item NewFolder
+[2026.05.12-08.20.03:084][218]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.05.12-08.20.03:091][218]LogContentBrowser: Creating deferred item: NewFolder
+[2026.05.12-08.20.03:103][219]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.05.12-08.20.05:286][349]LogContentBrowser: Attempting asset rename: NewFolder -> Scene
+[2026.05.12-08.20.05:287][349]LogContentBrowser: End creating deferred item NewFolder
+[2026.05.12-08.20.08:987][557]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2026.05.12-08.20.08:995][557]LogContentBrowser: Creating deferred item: NewWorld
+[2026.05.12-08.20.09:051][559]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2026.05.12-08.20.16:226][990]LogContentBrowser: Attempting asset rename: NewWorld -> GymRoom
+[2026.05.12-08.20.16:229][990]LogChaosDD: Creating Chaos Debug Draw Scene for world GymRoom
+[2026.05.12-08.20.16:234][990]LogContentBrowser: End creating deferred item NewWorld
+[2026.05.12-08.20.17:485][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2026.05.12-08.20.20:599][ 54]LogSlate: Window 'Save Content' being destroyed
+[2026.05.12-08.20.20:611][ 54]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.12-08.20.20:665][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2026.05.12-08.20.20:677][ 54]LogSavePackage: Moving output files for package: /Game/Scene/GymRoom
+[2026.05.12-08.20.20:677][ 54]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/GymRoomA56CF6C54D418098C33FB3A40A677C7F.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Scene/GymRoom.umap'
+[2026.05.12-08.20.20:682][ 54]LogFileHelpers: Saving map 'GymRoom' took 0.036
+[2026.05.12-08.20.20:731][ 54]LogFileHelpers: InternalPromptForCheckoutAndSave took 120.278 ms
+[2026.05.12-08.20.20:732][ 54]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Scene/GymRoom.GymRoom
+[2026.05.12-08.20.20:732][ 54]Cmd: MAP LOAD FILE="../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Scene/GymRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.05.12-08.20.20:748][ 54]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2026.05.12-08.20.20:748][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.12-08.20.20:748][ 54]LogWorldPartition: UWorldPartition::Uninitialize : World = /Temp/Untitled_1.Untitled_1
+[2026.05.12-08.20.20:770][ 54]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.12-08.20.20:785][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2026.05.12-08.20.20:792][ 54]LogWorld: UWorld::CleanupWorld for GymRoom, bSessionEnded=true, bCleanupResources=true
+[2026.05.12-08.20.20:792][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.12-08.20.20:809][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.05.12-08.20.20:832][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2026.05.12-08.20.20:832][ 54]LogStreaming: Display: FlushAsyncLoading(474): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.12-08.20.20:833][ 54]LogAudio: Display: Audio Device (ID: 1) registered with world 'GymRoom'.
+[2026.05.12-08.20.20:833][ 54]LogChaosDD: Creating Chaos Debug Draw Scene for world GymRoom
+[2026.05.12-08.20.20:848][ 54]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.05.12-08.20.20:867][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2026.05.12-08.20.20:871][ 54]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.05.12-08.20.20:871][ 54]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,066ms to complete.
+[2026.05.12-08.20.20:921][ 54]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.12-08.20.20:922][ 54]LogContentValidation: Enabled validators:
+[2026.05.12-08.20.20:922][ 54]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.12-08.20.20:922][ 54]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.12-08.20.20:922][ 54]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.12-08.20.20:922][ 54]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.12-08.20.20:922][ 54]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.12-08.20.20:922][ 54]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.12-08.20.20:922][ 54]AssetCheck: /Game/Scene/GymRoom Validating asset
+[2026.05.12-08.20.20:940][ 54]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/SourceControl/UncontrolledChangelists.json
+[2026.05.12-08.20.21:035][ 56]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.12-08.20.27:798][438]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2026.05.12-08.20.27:805][438]LogContentBrowser: Creating deferred item: NewWorld
+[2026.05.12-08.20.27:816][439]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2026.05.12-08.20.28:879][502]LogContentBrowser: Attempting asset rename: NewWorld -> NewWorld
+[2026.05.12-08.20.28:880][502]LogChaosDD: Creating Chaos Debug Draw Scene for world NewWorld
+[2026.05.12-08.20.28:882][502]LogContentBrowser: End creating deferred item NewWorld
+[2026.05.12-08.20.30:285][580]LogObjectTools: Deleting 1 worlds: /Game/Scene/NewWorld.NewWorld
+[2026.05.12-08.20.30:285][580]LogObjectTools: Currently 1 active worlds: /Game/Scene/GymRoom.GymRoom
+[2026.05.12-08.20.30:306][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2026.05.12-08.20.30:414][580]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2026.05.12-08.20.30:425][580]LogSlate: Took 0.010103 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2026.05.12-08.20.31:619][580]LogSlate: Window 'Delete Assets' being destroyed
+[2026.05.12-08.20.31:626][580]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2026.05.12-08.20.31:626][580]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.12-08.20.31:649][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2026.05.12-08.20.31:668][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.05.12-08.20.31:688][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2026.05.12-08.20.42:786][235]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2026.05.12-08.20.42:786][235]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2026.05.12-08.20.42:788][235]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Scene/GymRoom.GymRoom:PersistentLevel.DirectionalLight_0
+[2026.05.12-08.20.42:789][235]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Scene/GymRoom.GymRoom:PersistentLevel.DirectionalLight_0
+[2026.05.12-08.20.45:032][362]Cmd: TRANSACTION UNDO
+[2026.05.12-08.20.45:032][362]LogEditorTransaction: Undo Place Object
+[2026.05.12-08.20.48:010][528]LogActorLevelEditorSelection: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (DirectionalLight0) Flags: (0x00204000)
+[2026.05.12-08.21.25:247][746]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.CameraActor
+[2026.05.12-08.21.25:247][746]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.CameraActor
+[2026.05.12-08.21.25:250][746]LogActorFactory: Actor Factory spawned Class /Script/Engine.CameraActor as actor: CameraActor /Game/Scene/GymRoom.GymRoom:PersistentLevel.CameraActor_0
+[2026.05.12-08.21.25:250][746]LogActorFactory: Actor Factory spawned Class /Script/Engine.CameraActor as actor: CameraActor /Game/Scene/GymRoom.GymRoom:PersistentLevel.CameraActor_0
+[2026.05.12-08.21.25:301][746]LogStreaming: Display: FlushAsyncLoading(475): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.12-08.21.26:658][820]Cmd: TRANSACTION UNDO
+[2026.05.12-08.21.26:659][820]LogEditorTransaction: Undo Place Object
+[2026.05.12-08.21.32:883][173]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2026.05.12-08.21.32:883][173]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2026.05.12-08.21.32:888][173]LogActorLevelEditorSelection: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (CameraActor0) Flags: (0x00204000)
+[2026.05.12-08.21.34:631][268]Cmd: TRANSACTION UNDO
+[2026.05.12-08.21.34:631][268]LogEditorTransaction: Undo Place Object
+[2026.05.12-08.21.36:621][375]LogActorLevelEditorSelection: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (PointLight0) Flags: (0x00204000)
+[2026.05.12-08.22.21:163][999]LogContentBrowser: Deferred new asset file creation: NewWorld
+[2026.05.12-08.22.21:171][999]LogContentBrowser: Creating deferred item: NewWorld
+[2026.05.12-08.22.21:180][  0]LogContentBrowser: Renaming the item being created (Deferred Item: NewWorld).
+[2026.05.12-08.22.22:263][ 64]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 351.621338
+[2026.05.12-08.22.22:358][ 70]LogContentBrowser: Attempting asset rename: NewWorld -> NewWorld
+[2026.05.12-08.22.22:358][ 70]LogChaosDD: Creating Chaos Debug Draw Scene for world NewWorld
+[2026.05.12-08.22.22:360][ 70]LogContentBrowser: End creating deferred item NewWorld
+[2026.05.12-08.22.22:508][ 78]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.12-08.22.22:508][ 78]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 351.849487, Update Interval: 345.193634
+[2026.05.12-08.22.23:136][110]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2026.05.12-08.22.24:095][110]LogSlate: Window 'Save Content' being destroyed
+[2026.05.12-08.22.24:106][110]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.12-08.22.24:164][110]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.05.12-08.22.24:174][110]LogSavePackage: Moving output files for package: /Game/Scene/NewWorld
+[2026.05.12-08.22.24:174][110]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/NewWorldD4A5151E4ED25AE3D01A0AAB65C23B35.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Scene/NewWorld.umap'
+[2026.05.12-08.22.24:180][110]LogFileHelpers: Saving map 'NewWorld' took 0.034
+[2026.05.12-08.22.24:229][110]LogFileHelpers: InternalPromptForCheckoutAndSave took 123.104 ms (total: 243.383 ms)
+[2026.05.12-08.22.24:229][110]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Scene/NewWorld.NewWorld
+[2026.05.12-08.22.24:229][110]Cmd: MAP LOAD FILE="../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Scene/NewWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.05.12-08.22.24:239][110]LogWorld: UWorld::CleanupWorld for GymRoom, bSessionEnded=true, bCleanupResources=true
+[2026.05.12-08.22.24:239][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.12-08.22.24:260][110]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.12-08.22.24:261][110]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.05.12-08.22.24:262][110]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2026.05.12-08.22.24:262][110]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.12-08.22.24:282][110]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2026.05.12-08.22.24:307][110]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2026.05.12-08.22.24:308][110]LogStreaming: Display: FlushAsyncLoading(476): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.12-08.22.24:310][110]LogAudio: Display: Audio Device (ID: 1) registered with world 'NewWorld'.
+[2026.05.12-08.22.24:310][110]LogChaosDD: Creating Chaos Debug Draw Scene for world NewWorld
+[2026.05.12-08.22.24:320][110]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.05.12-08.22.24:339][110]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2026.05.12-08.22.24:343][110]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.05.12-08.22.24:343][110]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,071ms to complete.
+[2026.05.12-08.22.24:398][110]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.12-08.22.24:398][110]LogContentValidation: Enabled validators:
+[2026.05.12-08.22.24:398][110]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.12-08.22.24:398][110]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.12-08.22.24:398][110]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.12-08.22.24:398][110]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.12-08.22.24:398][110]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.12-08.22.24:398][110]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.12-08.22.24:398][110]AssetCheck: /Game/Scene/NewWorld Validating asset
+[2026.05.12-08.22.24:416][110]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/SourceControl/UncontrolledChangelists.json
+[2026.05.12-08.22.24:518][112]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.12-08.22.25:373][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2026.05.12-08.22.25:374][155]LogStreaming: Display: FlushAsyncLoading(477): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.12-08.22.25:375][155]LogChaosDD: Creating Chaos Debug Draw Scene for world GymRoom
+[2026.05.12-08.22.25:376][155]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Scene/GymRoom.GymRoom
+[2026.05.12-08.22.25:376][155]Cmd: MAP LOAD FILE="../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Scene/GymRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2026.05.12-08.22.25:386][155]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2026.05.12-08.22.25:387][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.12-08.22.25:409][155]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.05.12-08.22.25:410][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2026.05.12-08.22.25:411][155]LogWorld: UWorld::CleanupWorld for GymRoom, bSessionEnded=true, bCleanupResources=true
+[2026.05.12-08.22.25:411][155]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.12-08.22.25:430][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2026.05.12-08.22.25:447][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2026.05.12-08.22.25:449][155]LogAudio: Display: Audio Device (ID: 1) registered with world 'GymRoom'.
+[2026.05.12-08.22.25:449][155]LogChaosDD: Creating Chaos Debug Draw Scene for world GymRoom
+[2026.05.12-08.22.25:508][155]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2026.05.12-08.22.25:527][155]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2026.05.12-08.22.25:530][155]Cmd: MAP CHECKDEP NOCLEARLOG
+[2026.05.12-08.22.25:530][155]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,06ms to complete.
+[2026.05.12-08.22.25:768][156]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.12-08.22.27:319][234]LogStreaming: Display: FlushAsyncLoading(479): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.12-08.22.27:320][234]LogChaosDD: Creating Chaos Debug Draw Scene for world NewWorld
+[2026.05.12-08.22.27:320][234]LogObjectTools: Deleting 1 worlds: /Game/Scene/NewWorld.NewWorld
+[2026.05.12-08.22.27:320][234]LogObjectTools: Currently 1 active worlds: /Game/Scene/GymRoom.GymRoom
+[2026.05.12-08.22.27:336][234]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2026.05.12-08.22.28:199][234]LogSlate: Window 'Delete Assets' being destroyed
+[2026.05.12-08.22.28:206][234]LogWorld: UWorld::CleanupWorld for NewWorld, bSessionEnded=true, bCleanupResources=true
+[2026.05.12-08.22.28:206][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.12-08.22.28:231][234]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2026.05.12-08.22.28:249][234]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2026.05.12-08.22.28:266][234]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2026.05.12-08.23.15:701][610]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2026.05.12-08.23.15:701][610]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2026.05.12-08.23.15:703][610]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Scene/GymRoom.GymRoom:PersistentLevel.DirectionalLight_0
+[2026.05.12-08.23.15:703][610]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Scene/GymRoom.GymRoom:PersistentLevel.DirectionalLight_0
+[2026.05.12-08.23.28:311][332]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2026.05.12-08.23.28:311][332]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2026.05.12-08.23.28:313][332]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Scene/GymRoom.GymRoom:PersistentLevel.PlayerStart_0
+[2026.05.12-08.23.28:313][332]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.05.12-08.23.28:315][332]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Scene/GymRoom.GymRoom:PersistentLevel.PlayerStart_0
+[2026.05.12-08.23.28:315][332]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.05.12-08.23.29:690][412]Cmd: TRANSACTION UNDO
+[2026.05.12-08.23.29:690][412]LogEditorTransaction: Undo Place Object
+[2026.05.12-08.23.30:011][424]Cmd: TRANSACTION UNDO
+[2026.05.12-08.23.30:011][424]LogEditorTransaction: Undo Clicking Background
+[2026.05.12-08.23.30:557][450]Cmd: TRANSACTION UNDO
+[2026.05.12-08.23.30:557][450]LogEditorTransaction: Undo Place Object
+[2026.05.12-08.23.32:118][543]LogActorLevelEditorSelection: Warning: SelectActor: The requested operation could not be completed because the actor has invalid flags. (DirectionalLight0) Flags: (0x00208000)
+[2026.05.12-08.23.47:444][435]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2026.05.12-08.23.49:766][567]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2026.05.12-08.23.49:766][567]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2026.05.12-08.23.49:767][567]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Scene/GymRoom.GymRoom:PersistentLevel.SkyLight_0
+[2026.05.12-08.23.49:767][567]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Scene/GymRoom.GymRoom:PersistentLevel.SkyLight_0
+[2026.05.12-08.23.52:059][696]Cmd: TRANSACTION UNDO
+[2026.05.12-08.23.52:059][696]LogEditorTransaction: Undo Create Actor
+[2026.05.12-08.23.56:099][915]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2026.05.12-08.23.56:099][915]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2026.05.12-08.23.56:101][915]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/Scene/GymRoom.GymRoom:PersistentLevel.SkyAtmosphere_0
+[2026.05.12-08.23.56:101][915]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/Scene/GymRoom.GymRoom:PersistentLevel.SkyAtmosphere_0
+[2026.05.12-08.24.00:762][179]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2026.05.12-08.24.00:762][179]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2026.05.12-08.24.00:763][179]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Scene/GymRoom.GymRoom:PersistentLevel.SkyLight_1
+[2026.05.12-08.24.00:763][179]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Scene/GymRoom.GymRoom:PersistentLevel.SkyLight_1
+[2026.05.12-08.24.17:869][188]LogEditor: Attempting to add actor of class 'LevelBounds' to level at 670.00,10.00,200.00
+[2026.05.12-08.24.18:948][247]Cmd: TRANSACTION UNDO
+[2026.05.12-08.24.18:948][247]LogEditorTransaction: Undo Create Actor
+[2026.05.12-08.24.32:399][ 25]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2026.05.12-08.24.32:399][ 25]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2026.05.12-08.24.32:401][ 25]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Scene/GymRoom.GymRoom:PersistentLevel.DirectionalLight_1
+[2026.05.12-08.24.32:401][ 25]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Scene/GymRoom.GymRoom:PersistentLevel.DirectionalLight_1
+[2026.05.12-08.26.13:138][978]Cmd: TRANSACTION UNDO
+[2026.05.12-08.26.13:138][978]LogEditorTransaction: Undo Edit MultiScattering
+[2026.05.12-08.26.16:436][155]Cmd: TRANSACTION UNDO
+[2026.05.12-08.26.16:436][155]LogEditorTransaction: Undo Edit Atmosphere Height
+[2026.05.12-08.26.18:237][259]Cmd: TRANSACTION UNDO
+[2026.05.12-08.26.18:237][259]LogEditorTransaction: Undo Edit Atmosphere Height
+[2026.05.12-08.26.23:927][585]Cmd: TRANSACTION UNDO
+[2026.05.12-08.26.23:927][585]LogEditorTransaction: Undo Edit Rayleigh Scattering Scale
+[2026.05.12-08.26.26:759][737]Cmd: TRANSACTION UNDO
+[2026.05.12-08.26.26:759][737]LogEditorTransaction: Undo Edit Rayleigh Exponential Distribution
+[2026.05.12-08.26.29:747][915]Cmd: TRANSACTION UNDO
+[2026.05.12-08.26.29:748][915]LogEditorTransaction: Undo Edit Mie Scattering Scale
+[2026.05.12-08.26.32:870][ 88]Cmd: TRANSACTION UNDO
+[2026.05.12-08.26.32:870][ 88]LogEditorTransaction: Undo Edit Mie Scattering Scale
+[2026.05.12-08.26.34:931][211]Cmd: TRANSACTION UNDO
+[2026.05.12-08.26.34:931][211]LogEditorTransaction: Undo Edit Mie Absorption Scale
+[2026.05.12-08.26.37:360][344]Cmd: TRANSACTION UNDO
+[2026.05.12-08.26.37:360][344]LogEditorTransaction: Undo Edit Mie Exponential Distribution
+[2026.05.12-08.26.38:397][405]Cmd: TRANSACTION UNDO
+[2026.05.12-08.26.38:397][405]LogEditorTransaction: Undo Edit Mie Anisotropy
+[2026.05.12-08.26.41:277][577]Cmd: TRANSACTION UNDO
+[2026.05.12-08.26.41:277][577]LogEditorTransaction: Undo Edit Absorption Scale
+[2026.05.12-08.26.43:255][681]Cmd: TRANSACTION UNDO
+[2026.05.12-08.26.43:255][681]LogEditorTransaction: Undo Edit Aerial Perspective View Distance Scale
+[2026.05.12-08.26.45:249][797]Cmd: TRANSACTION UNDO
+[2026.05.12-08.26.45:249][797]LogEditorTransaction: Undo Edit Height Fog Contribution
+[2026.05.12-08.27.59:326][203]Cmd: DELETE
+[2026.05.12-08.27.59:326][203]Cmd: ACTOR DELETE
+[2026.05.12-08.27.59:331][203]LogEditorActor: Deleted Actor: DirectionalLight
+[2026.05.12-08.27.59:393][203]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2026.05.12-08.27.59:401][203]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2026.05.12-08.28.06:867][618]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2026.05.12-08.28.06:867][618]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2026.05.12-08.28.08:216][694]Cmd: TRANSACTION UNDO
+[2026.05.12-08.28.08:216][694]LogEditorTransaction: Undo Create Actor
+[2026.05.12-08.28.11:181][855]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2026.05.12-08.28.11:181][855]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2026.05.12-08.28.11:672][876]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 701.029724
+[2026.05.12-08.28.11:923][891]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.12-08.28.11:923][891]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 701.263062, Update Interval: 351.166718
+[2026.05.12-08.28.12:115][903]Cmd: TRANSACTION UNDO
+[2026.05.12-08.28.12:115][903]LogEditorTransaction: Undo Create Actor
+[2026.05.12-08.28.13:982][  1]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.RectLight
+[2026.05.12-08.28.13:982][  1]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.RectLight
+[2026.05.12-08.28.14:278][  2]Cmd: TRANSACTION UNDO
+[2026.05.12-08.28.14:278][  2]LogEditorTransaction: Undo Create Actor
+[2026.05.12-08.28.16:680][141]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2026.05.12-08.28.16:680][141]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2026.05.12-08.28.16:681][141]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Scene/GymRoom.GymRoom:PersistentLevel.SkyLight_2
+[2026.05.12-08.28.16:681][141]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Scene/GymRoom.GymRoom:PersistentLevel.SkyLight_2
+[2026.05.12-08.28.17:071][158]Cmd: TRANSACTION UNDO
+[2026.05.12-08.28.17:071][158]LogEditorTransaction: Undo Create Actor
+[2026.05.12-08.28.20:584][348]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2026.05.12-08.28.20:584][348]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.DirectionalLight
+[2026.05.12-08.28.20:585][348]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Scene/GymRoom.GymRoom:PersistentLevel.DirectionalLight_2
+[2026.05.12-08.28.20:585][348]LogActorFactory: Actor Factory spawned Class /Script/Engine.DirectionalLight as actor: DirectionalLight /Game/Scene/GymRoom.GymRoom:PersistentLevel.DirectionalLight_2
+[2026.05.12-08.28.26:462][693]Cmd: TRANSACTION UNDO
+[2026.05.12-08.28.26:462][693]LogEditorTransaction: Undo Edit Intensity
+[2026.05.12-08.28.30:229][905]Cmd: TRANSACTION UNDO
+[2026.05.12-08.28.30:229][905]LogEditorTransaction: Undo Edit Source Angle
+[2026.05.12-08.28.32:139][  6]Cmd: TRANSACTION UNDO
+[2026.05.12-08.28.32:139][  6]LogEditorTransaction: Undo Edit Source Soft Angle
+[2026.05.12-08.28.36:382][260]Cmd: TRANSACTION UNDO
+[2026.05.12-08.28.36:382][260]LogEditorTransaction: Undo Edit Indirect Lighting Intensity
+[2026.05.12-08.28.38:126][351]Cmd: TRANSACTION UNDO
+[2026.05.12-08.28.38:126][351]LogEditorTransaction: Undo Edit Volumetric Scattering Intensity
+[2026.05.12-08.28.42:416][607]Cmd: TRANSACTION UNDO
+[2026.05.12-08.28.42:416][607]LogEditorTransaction: Undo Edit Editor Billboard Scale
+[2026.05.12-08.28.47:000][868]Cmd: TRANSACTION UNDO
+[2026.05.12-08.28.47:001][868]LogEditorTransaction: Undo Edit Light Source Angle
+[2026.05.12-08.28.48:211][927]Cmd: TRANSACTION UNDO
+[2026.05.12-08.28.48:212][927]LogEditorTransaction: Undo Edit Indirect Lighting Saturation
+[2026.05.12-08.28.49:979][ 32]Cmd: TRANSACTION UNDO
+[2026.05.12-08.28.49:979][ 32]LogEditorTransaction: Undo Edit Shadow Exponent
+[2026.05.12-08.28.57:027][446]Cmd: TRANSACTION UNDO
+[2026.05.12-08.28.57:027][446]LogEditorTransaction: Undo Edit DistanceField Shadow Distance
+[2026.05.12-08.28.59:620][586]Cmd: TRANSACTION UNDO
+[2026.05.12-08.28.59:620][586]LogEditorTransaction: Undo Edit Shadow Source Angle Factor
+[2026.05.12-08.29.03:773][834]Cmd: TRANSACTION UNDO
+[2026.05.12-08.29.03:773][834]LogEditorTransaction: Undo Edit Max Distance Fade Range
+[2026.05.12-08.29.07:983][ 73]Cmd: TRANSACTION UNDO
+[2026.05.12-08.29.07:983][ 73]LogEditorTransaction: Undo Edit Initial Life Span
+[2026.05.12-08.29.43:817][146]Cmd: TRANSACTION UNDO
+[2026.05.12-08.29.43:818][146]LogEditorTransaction: Undo Clicking Background
+[2026.05.12-08.29.45:060][206]Cmd: TRANSACTION REDO
+[2026.05.12-08.29.45:060][206]LogEditorTransaction: Redo Clicking Background
+[2026.05.12-08.29.55:094][793]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.05.12-08.29.55:094][793]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Engine/BasicShapes/Cube.Cube
+[2026.05.12-08.29.55:095][793]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Scene/GymRoom.GymRoom:PersistentLevel.StaticMeshActor_0
+[2026.05.12-08.29.55:095][793]LogActorFactory: Actor Factory spawned StaticMesh /Engine/BasicShapes/Cube.Cube as actor: StaticMeshActor /Game/Scene/GymRoom.GymRoom:PersistentLevel.StaticMeshActor_0
+[2026.05.12-08.29.55:302][794]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_0
+[2026.05.12-08.29.56:632][861]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_1
+[2026.05.12-08.31.15:174][515]Cmd: TRANSACTION UNDO
+[2026.05.12-08.31.15:174][515]LogEditorTransaction: Undo Scale Elements
+[2026.05.12-08.31.34:511][659]LogShaderCompilers: Display: ================================================
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Total job queries 2 578, among them cache hits 623 (24.17%), DDC hits 1 782 (69.12%), Duplicates 116 (4.50%)
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Tracking 1 839 distinct input hashes that result in 1 150 distinct outputs (62.53%)
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: RAM used: 11,72 MiB of 1,60 GiB budget. Usage: 0.72%
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Shaders Compiled: 57
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Jobs assigned 57, completed 57 (100%)
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Average time worker was idle: 131.12 s
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Time job spent in pending queue: average 0.52 s, longest 2.37 s
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Job execution time: average 2.72 s, max 8.40 s
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Job life time (pending + execution): average 3.24 s, max 8.57
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Shader code size: total 593,575 KiB, numShaders 57, average 10,413 KiB, min 5,562 KiB, max 20,234 KiB
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 16.21 s
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.03%
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Jobs were issued in 41 batches (only local compilation was used), average 1.39 jobs/batch
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Average processing rate: 3.52 jobs/sec
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Total thread time: 64,41 s
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Total thread preprocess time: 32,185 s
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Percentage time preprocessing: 49.97%
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Effective parallelization: 3.97 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.496833
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 5.44 sec, max 5.44 sec, min 5.44 sec)
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled    1 times, average 5.05 sec, max 5.05 sec, min 5.05 sec)
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled    3 times, average 2.95 sec, max 3.48 sec, min 1.90 sec)
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    5 times, average 2.06 sec, max 3.59 sec, min 0.91 sec)
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    6 times, average 1.17 sec, max 3.32 sec, min 0.50 sec)
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display:                                             FDebugViewModeVS - 30.49% of total time (compiled   29 times, average 0.68 sec, max 2.25 sec, min 0.27 sec)
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 16.03% of total time (compiled    5 times, average 2.06 sec, max 3.59 sec, min 0.91 sec)
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 13.73% of total time (compiled    3 times, average 2.95 sec, max 3.48 sec, min 1.90 sec)
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.92% of total time (compiled    6 times, average 1.17 sec, max 3.32 sec, min 0.50 sec)
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 8.45% of total time (compiled    1 times, average 5.44 sec, max 5.44 sec, min 5.44 sec)
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: === Material stats ===
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Materials Translated:    143
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Material Total Translate Time: 0.11 s
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Material Translation Only: 0.04 s (37%)
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2026.05.12-08.31.34:512][659]LogShaderCompilers: Display: ================================================
+[2026.05.12-08.32.15:598][ 72]Cmd: TRANSACTION UNDO
+[2026.05.12-08.32.15:598][ 72]LogEditorTransaction: Undo Move Elements
+[2026.05.12-08.32.15:966][ 84]Cmd: TRANSACTION UNDO
+[2026.05.12-08.32.15:966][ 84]LogEditorTransaction: Undo Clicking on Elements
+[2026.05.12-08.32.16:447][106]Cmd: TRANSACTION UNDO
+[2026.05.12-08.32.16:447][106]LogEditorTransaction: Undo Move Elements
+[2026.05.12-08.32.17:010][138]Cmd: TRANSACTION UNDO
+[2026.05.12-08.32.17:010][138]LogEditorTransaction: Undo Clicking on Elements
+[2026.05.12-08.32.17:463][162]Cmd: TRANSACTION UNDO
+[2026.05.12-08.32.17:463][162]LogEditorTransaction: Undo Move Elements
+[2026.05.12-08.32.18:942][250]Cmd: DELETE
+[2026.05.12-08.32.18:942][250]Cmd: ACTOR DELETE
+[2026.05.12-08.32.18:944][250]LogEditorActor: Deleted Actor: SkyAtmosphere
+[2026.05.12-08.32.18:996][250]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2026.05.12-08.32.19:005][250]LogEditorActor: Deleted 1 Actors (0.063 secs)
+[2026.05.12-08.32.21:199][380]Cmd: DELETE
+[2026.05.12-08.32.21:199][380]Cmd: ACTOR DELETE
+[2026.05.12-08.32.21:200][380]LogEditorActor: Deleted Actor: SkyLight
+[2026.05.12-08.32.21:219][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2026.05.12-08.32.21:222][380]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2026.05.12-08.32.27:953][765]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2026.05.12-08.32.27:953][765]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyAtmosphere
+[2026.05.12-08.32.27:955][765]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/Scene/GymRoom.GymRoom:PersistentLevel.SkyAtmosphere_1
+[2026.05.12-08.32.27:955][765]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyAtmosphere as actor: SkyAtmosphere /Game/Scene/GymRoom.GymRoom:PersistentLevel.SkyAtmosphere_1
+[2026.05.12-08.32.36:151][235]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2026.05.12-08.32.36:151][235]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SkyLight
+[2026.05.12-08.32.36:152][235]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Scene/GymRoom.GymRoom:PersistentLevel.SkyLight_3
+[2026.05.12-08.32.36:153][235]LogActorFactory: Actor Factory spawned Class /Script/Engine.SkyLight as actor: SkyLight /Game/Scene/GymRoom.GymRoom:PersistentLevel.SkyLight_3
+[2026.05.12-08.33.40:951][ 44]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.ExponentialHeightFog
+[2026.05.12-08.33.40:951][ 44]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.ExponentialHeightFog
+[2026.05.12-08.33.40:952][ 44]LogActorFactory: Actor Factory spawned Class /Script/Engine.ExponentialHeightFog as actor: ExponentialHeightFog /Game/Scene/GymRoom.GymRoom:PersistentLevel.ExponentialHeightFog_0
+[2026.05.12-08.33.40:952][ 44]LogActorFactory: Actor Factory spawned Class /Script/Engine.ExponentialHeightFog as actor: ExponentialHeightFog /Game/Scene/GymRoom.GymRoom:PersistentLevel.ExponentialHeightFog_0
+[2026.05.12-08.33.55:841][889]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.LocalFogVolume
+[2026.05.12-08.33.55:841][889]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.LocalFogVolume
+[2026.05.12-08.33.55:842][889]LogActorFactory: Actor Factory spawned Class /Script/Engine.LocalFogVolume as actor: LocalFogVolume /Game/Scene/GymRoom.GymRoom:PersistentLevel.LocalFogVolume_0
+[2026.05.12-08.33.55:842][889]LogActorFactory: Actor Factory spawned Class /Script/Engine.LocalFogVolume as actor: LocalFogVolume /Game/Scene/GymRoom.GymRoom:PersistentLevel.LocalFogVolume_0
+[2026.05.12-08.33.57:943][ 10]Cmd: DELETE
+[2026.05.12-08.33.57:943][ 10]Cmd: ACTOR DELETE
+[2026.05.12-08.33.57:945][ 10]LogEditorActor: Deleted Actor: LocalFogVolume
+[2026.05.12-08.33.57:992][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2026.05.12-08.33.57:998][ 10]LogEditorActor: Deleted 1 Actors (0.055 secs)
+[2026.05.12-08.34.09:564][689]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1058.914917
+[2026.05.12-08.34.09:914][710]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.12-08.34.09:914][710]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1059.247681, Update Interval: 333.899353
+[2026.05.12-08.34.10:626][753]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Actor
+[2026.05.12-08.34.10:626][753]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.Actor
+[2026.05.12-08.34.10:627][753]LogActorFactory: Actor Factory spawned Class /Script/Engine.Actor as actor: Actor /Game/Scene/GymRoom.GymRoom:PersistentLevel.Actor_0
+[2026.05.12-08.34.10:627][753]LogActorFactory: Actor Factory spawned Class /Script/Engine.Actor as actor: Actor /Game/Scene/GymRoom.GymRoom:PersistentLevel.Actor_0
+[2026.05.12-08.34.21:032][368]Cmd: DELETE
+[2026.05.12-08.34.21:032][368]Cmd: ACTOR DELETE
+[2026.05.12-08.34.21:034][368]LogEditorActor: Deleted Actor: Actor
+[2026.05.12-08.34.21:059][368]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2026.05.12-08.34.21:064][368]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2026.05.12-08.34.25:845][642]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2026.05.12-08.34.25:845][642]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PlayerStart
+[2026.05.12-08.34.25:847][642]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Scene/GymRoom.GymRoom:PersistentLevel.PlayerStart_1
+[2026.05.12-08.34.25:847][642]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.05.12-08.34.25:849][642]LogActorFactory: Actor Factory spawned Class /Script/Engine.PlayerStart as actor: PlayerStart /Game/Scene/GymRoom.GymRoom:PersistentLevel.PlayerStart_1
+[2026.05.12-08.34.25:850][642]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.05.12-08.34.25:865][642]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.05.12-08.34.32:037][988]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.05.12-08.34.37:800][302]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2026.05.12-08.34.56:099][365]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.12-08.34.56:162][365]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2026.05.12-08.34.56:176][365]LogSavePackage: Moving output files for package: /Game/Scene/GymRoom
+[2026.05.12-08.34.56:176][365]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/GymRoomCD6FE7F6436364DE2B1B53AE3AAACBA8.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Scene/GymRoom.umap'
+[2026.05.12-08.34.56:181][365]LogFileHelpers: Saving map 'GymRoom' took 0.051
+[2026.05.12-08.34.56:191][365]LogFileHelpers: InternalPromptForCheckoutAndSave took 92.399 ms (total: 335.783 ms)
+[2026.05.12-08.34.56:227][365]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.12-08.34.56:227][365]LogContentValidation: Enabled validators:
+[2026.05.12-08.34.56:227][365]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.12-08.34.56:227][365]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.12-08.34.56:227][365]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.12-08.34.56:227][365]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.12-08.34.56:227][365]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.12-08.34.56:227][365]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.12-08.34.56:227][365]AssetCheck: /Game/Scene/GymRoom Validating asset
