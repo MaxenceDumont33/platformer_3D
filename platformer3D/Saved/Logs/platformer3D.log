@@ -2586,3 +2586,22 @@ Script Stack (0 frames) :
 [2026.05.20-14.34.18:238][799]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8464.208984
 [2026.05.20-14.34.19:239][802]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.05.20-14.34.19:239][802]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8464.876953, Update Interval: 342.181458
+[2026.05.20-14.36.42:310][683]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.05.20-14.36.44:657][683]LogSlate: Window 'Save Content' being destroyed
+[2026.05.20-14.36.44:668][683]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-14.36.44:777][683]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_Player] ([2] browsable assets)...
+[2026.05.20-14.36.44:777][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2026.05.20-14.36.44:777][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Player/BP_Player.uasset" SILENT=true
+[2026.05.20-14.36.44:793][683]LogSavePackage: Moving output files for package: /Game/Player/BP_Player
+[2026.05.20-14.36.44:793][683]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/BP_Player380AD2874891B03D987AA399668773B5.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Player/BP_Player.uasset'
+[2026.05.20-14.36.44:805][683]LogFileHelpers: InternalPromptForCheckoutAndSave took 136.932 ms (total: 4.89 sec)
+[2026.05.20-14.36.44:927][683]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-14.36.44:927][683]LogContentValidation: Enabled validators:
+[2026.05.20-14.36.44:927][683]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-14.36.44:927][683]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-14.36.44:927][683]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-14.36.44:927][683]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-14.36.44:927][683]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-14.36.44:927][683]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-14.36.44:927][683]AssetCheck: /Game/Player/BP_Player Validating asset
+[2026.05.20-14.36.47:782][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
