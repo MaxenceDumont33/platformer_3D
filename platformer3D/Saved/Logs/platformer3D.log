@@ -1489,3 +1489,1100 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.05.20-12.51.23:264][122]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
 [2026.05.20-12.51.23:272][122]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
 [2026.05.20-12.51.23:298][123]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2026.05.20-12.53.31:737][416]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2417.897217
+[2026.05.20-12.53.31:920][427]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-12.53.31:921][427]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2418.064209, Update Interval: 341.476501
+[2026.05.20-12.54.13:194][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.05.20-12.54.13:196][884]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Scene/GymRoom' took 0.027
+[2026.05.20-12.54.13:196][884]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_Player] ([2] browsable assets)...
+[2026.05.20-12.54.13:196][884]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2026.05.20-12.54.13:209][884]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player/BP_Player_Auto3
+[2026.05.20-12.54.13:210][884]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/BP_Player_Auto3D1FAFBE34C1E2F5F44A9B58E9EBEC4AD.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/Autosaves/Game/Player/BP_Player_Auto3.uasset'
+[2026.05.20-12.54.13:211][884]LogFileHelpers: Auto-saving content packages took 0.015
+[2026.05.20-12.56.27:880][466]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2026.05.20-12.56.27:890][466]LogContentBrowser: Creating deferred item: NewFolder
+[2026.05.20-12.56.27:903][467]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2026.05.20-12.56.30:946][650]LogContentBrowser: Attempting asset rename: NewFolder -> Componenet
+[2026.05.20-12.56.30:946][650]LogContentBrowser: End creating deferred item NewFolder
+[2026.05.20-12.56.39:439][159]LogContentBrowser: Attempting asset rename: Componenet -> Component
+[2026.05.20-12.56.45:274][324]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.05.20-12.56.45:285][324]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.05.20-12.56.45:293][324]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.05.20-12.56.55:212][916]LogWindows: LaunchURL https://docs.unrealengine.com/5.6/en/BuildingWorlds/LevelEditor?utm_source=editor&utm_medium=docs&utm_campaign=help_menu
+[2026.05.20-12.57.48:979][553]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.05.20-12.57.48:989][553]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2026.05.20-12.57.49:034][553]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.045 s
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: === Handled ensure: ===
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: 
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: Ensure condition failed: !DeferredItemToCreate.IsValid()  [File:D:\build\++UE5\Sync\Engine\Source\Editor\ContentBrowser\Private\SAssetView.cpp] [Line: 1736] 
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: Deferred new asset file creation while there is already a deferred item creation: NewBlueprint
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: Stack: 
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffadf424466 UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffadf2240c3 UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffadf1d0ef5 UnrealEditor-ContentBrowser.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x000001b9b8e03add UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x000001b9b8e05b83 UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x000001b9b8dde08d UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x000001b9b8dded6d UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x000001b9b8ddcf20 UnrealEditor-ContentBrowserAssetDataSource.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffb372dd5c5 UnrealEditor-Slate.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffb3740502b UnrealEditor-Slate.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffb3740a5a0 UnrealEditor-Slate.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffb373daf3a UnrealEditor-Slate.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffb3746961e UnrealEditor-Slate.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffb374881e2 UnrealEditor-Slate.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffb3740ce49 UnrealEditor-Slate.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffb3721be6b UnrealEditor-Slate.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffb3720743d UnrealEditor-Slate.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffb37261ec8 UnrealEditor-Slate.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffb372513bb UnrealEditor-Slate.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffb37244091 UnrealEditor-Slate.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffc7f7cf956 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffc7f7b7137 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffc7f7d299c UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffc7f7b1171 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffcaf417846 USER32.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffcaf41539d USER32.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffc7f7f2316 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ff6369a871b UnrealEditor.exe!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ff6369ce5ac UnrealEditor.exe!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ff6369ce6ba UnrealEditor.exe!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ff6369d209e UnrealEditor.exe!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ff6369e4e44 UnrealEditor.exe!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ff6369e80fa UnrealEditor.exe!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffcb011e8d7 KERNEL32.DLL!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: [Callstack] 0x00007ffcb05ac53c ntdll.dll!UnknownFunction []
+[2026.05.20-12.57.49:034][553]LogOutputDevice: Error: 
+[2026.05.20-12.57.49:045][553]LogStats:                SubmitErrorReport -  0.000 s
+[2026.05.20-12.57.50:554][553]LogStats:                    SendNewReport -  1.509 s
+[2026.05.20-12.57.50:554][553]LogStats:             FDebug::EnsureFailed -  1.565 s
+[2026.05.20-12.57.50:554][553]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.05.20-12.57.50:563][553]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.05.20-12.57.50:576][554]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.05.20-12.57.50:611][556]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2026.05.20-12.57.50:621][556]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.05.20-12.57.52:786][682]LogContentBrowser: Attempting asset rename: NewBlueprint -> NewBlueprint
+[2026.05.20-12.57.54:302][765]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2026.05.20-12.57.54:474][765]LogSlate: Last resort fallback font was requested. Font: '<unknown>', Character: '<unknown>'
+[2026.05.20-12.57.54:484][765]LogSlate: Took 0.009484 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2026.05.20-12.57.56:293][765]LogSlate: Window 'Delete Assets' being destroyed
+[2026.05.20-12.57.56:336][765]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.05.20-12.57.56:366][765]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2026.05.20-12.57.56:391][765]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2026.05.20-12.58.08:610][423]LogSlate: Window 'Pick Parent Class' being destroyed
+[2026.05.20-12.58.08:621][423]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2026.05.20-12.58.08:630][423]LogContentBrowser: Creating deferred item: NewBlueprint
+[2026.05.20-12.58.08:658][425]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2026.05.20-12.58.17:100][932]LogContentBrowser: Attempting asset rename: NewBlueprint -> Parckourcomponent
+[2026.05.20-12.58.17:107][932]LogContentBrowser: End creating deferred item NewBlueprint
+[2026.05.20-12.58.40:295][511]LogContentBrowser: Attempting asset rename: Parckourcomponent -> ParckourMovement
+[2026.05.20-12.58.40:410][511]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-12.58.40:410][511]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-12.58.40:410][511]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-12.58.40:420][511]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-12.58.40:420][511]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovement8F5730E9466A020AF4CFBE8B8589F5A3.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-12.58.40:427][511]LogFileHelpers: InternalPromptForCheckoutAndSave took 16.611 ms (total: 124.355 ms)
+[2026.05.20-12.58.40:463][511]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.05.20-12.58.40:489][511]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.05.20-12.58.40:513][511]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2026.05.20-12.58.40:620][511]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-12.58.40:620][511]LogContentValidation: Enabled validators:
+[2026.05.20-12.58.40:620][511]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-12.58.40:620][511]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-12.58.40:620][511]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-12.58.40:620][511]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-12.58.40:620][511]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-12.58.40:620][511]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-12.58.40:620][511]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-12.58.40:685][511]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/SourceControl/UncontrolledChangelists.json
+[2026.05.20-12.58.41:615][562]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2026.05.20-12.58.43:725][589]LogUdpMessaging: Display: Unicast socket bound to '0.0.0.0:55410'.
+[2026.05.20-12.58.43:730][589]LogUdpMessaging: Display: Added local interface '192.168.2.102' to multicast group '230.0.0.1:6666'
+[2026.05.20-12.58.43:735][589]LogUdpMessaging: Display: Using asynchronous task graph for message deserialization.
+[2026.05.20-12.59.58:751][815]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2804.927002
+[2026.05.20-12.59.59:752][818]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-12.59.59:752][818]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2805.593262, Update Interval: 358.359314
+[2026.05.20-13.01.22:677][167]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Component/ParckourMovement.ParckourMovement
+[2026.05.20-13.01.22:678][167]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2026.05.20-13.01.23:226][167]LogSlate: Took 0.007268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2026.05.20-13.01.49:269][854]LogSlate: Window 'ParckourMovement' being destroyed
+[2026.05.20-13.02.35:211][184]LogSlate: Took 0.008900 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2026.05.20-13.02.35:287][184]LogSlate: Took 0.006364 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2026.05.20-13.05.39:138][961]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2026.05.20-13.05.39:142][961]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Scene/GymRoom' took 0.056
+[2026.05.20-13.05.39:142][961]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_Player] ([2] browsable assets)...
+[2026.05.20-13.05.39:142][961]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2026.05.20-13.05.39:160][961]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player/BP_Player_Auto4
+[2026.05.20-13.05.39:161][961]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/BP_Player_Auto4C7D541BE4A2A24344194399FD227BC34.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/Autosaves/Game/Player/BP_Player_Auto4.uasset'
+[2026.05.20-13.05.39:163][961]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.05.39:163][961]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.05.39:173][961]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Component/ParckourMovement_Auto4
+[2026.05.20-13.05.39:173][961]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovement_Auto4D64F59A64E72809CBA75A88CB6368E37.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/Autosaves/Game/Component/ParckourMovement_Auto4.uasset'
+[2026.05.20-13.05.39:175][961]LogFileHelpers: Auto-saving content packages took 0.033
+[2026.05.20-13.06.36:133][402]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3202.321777
+[2026.05.20-13.06.36:317][413]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-13.06.36:317][413]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3202.490479, Update Interval: 356.971344
+[2026.05.20-13.07.27:890][176]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2026.05.20-13.08.28:761][883]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.08.28:838][883]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.08.28:838][883]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.08.28:849][883]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.08.28:849][883]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovementCA9F6DA549DF39BFE08102896ED4FFEE.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.08.28:859][883]LogFileHelpers: InternalPromptForCheckoutAndSave took 97.755 ms (total: 222.111 ms)
+[2026.05.20-13.08.28:984][883]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.08.28:984][883]LogContentValidation: Enabled validators:
+[2026.05.20-13.08.28:984][883]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.08.28:984][883]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.08.28:984][883]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.08.28:984][883]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.08.28:984][883]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.08.28:984][883]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.08.28:984][883]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.09.11:866][973]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.09.11:946][973]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.09.11:946][973]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.09.11:958][973]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.09.11:959][973]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovementAC05DFAA4D1F44B0988FACA6454CBD9B.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.09.11:968][973]LogFileHelpers: InternalPromptForCheckoutAndSave took 101.986 ms (total: 324.098 ms)
+[2026.05.20-13.09.12:070][973]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.09.12:070][973]LogContentValidation: Enabled validators:
+[2026.05.20-13.09.12:070][973]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.09.12:070][973]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.09.12:070][973]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.09.12:070][973]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.09.12:070][973]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.09.12:070][973]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.09.12:070][973]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.10.59:762][239]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.10.59:843][239]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.10.59:844][239]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.10.59:855][239]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.10.59:856][239]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovementC786177440F233E3674BB18D25988A42.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.10.59:866][239]LogFileHelpers: InternalPromptForCheckoutAndSave took 103.593 ms (total: 427.691 ms)
+[2026.05.20-13.10.59:986][239]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.10.59:986][239]LogContentValidation: Enabled validators:
+[2026.05.20-13.10.59:986][239]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.10.59:986][239]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.10.59:986][239]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.10.59:986][239]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.10.59:986][239]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.10.59:986][239]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.10.59:986][239]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.12.44:976][739]LogEditorTransaction: Undo Add Node
+[2026.05.20-13.13.19:343][211]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3605.543457
+[2026.05.20-13.13.19:562][224]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-13.13.19:562][224]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3605.745117, Update Interval: 321.823181
+[2026.05.20-13.14.25:658][287]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2026.05.20-13.15.10:551][341]LogDerivedDataCache: C:/Users/md200/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.05.20-13.18.06:247][  6]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.18.06:334][  6]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.18.06:334][  6]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.18.06:350][  6]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.18.06:351][  6]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovementB7139E904F4A2A7F026FB8834C29598B.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.18.06:360][  6]LogFileHelpers: InternalPromptForCheckoutAndSave took 112.491 ms (total: 540.183 ms)
+[2026.05.20-13.18.06:473][  6]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.18.06:473][  6]LogContentValidation: Enabled validators:
+[2026.05.20-13.18.06:473][  6]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.18.06:473][  6]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.18.06:473][  6]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.18.06:473][  6]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.18.06:473][  6]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.18.06:473][  6]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.18.06:474][  6]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.19.22:289][ 32]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.19.22:379][ 32]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.19.22:379][ 32]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.19.22:395][ 32]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.19.22:396][ 32]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovement8029ED2343B3D2289D8D0E981F197C92.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.19.22:406][ 32]LogFileHelpers: InternalPromptForCheckoutAndSave took 116.199 ms (total: 656.382 ms)
+[2026.05.20-13.19.22:536][ 32]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.19.22:536][ 32]LogContentValidation: Enabled validators:
+[2026.05.20-13.19.22:536][ 32]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.19.22:536][ 32]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.19.22:536][ 32]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.19.22:536][ 32]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.19.22:536][ 32]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.19.22:536][ 32]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.19.22:536][ 32]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.19.27:663][130]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3973.879883
+[2026.05.20-13.19.28:663][133]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-13.19.28:663][133]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3974.545898, Update Interval: 344.585724
+[2026.05.20-13.20.13:812][408]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.20.13:887][408]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.20.13:887][408]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.20.13:903][408]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.20.13:904][408]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovementDD5E9B6D47EECCCF2DA8F69ED615F970.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.20.13:914][408]LogFileHelpers: InternalPromptForCheckoutAndSave took 101.559 ms (total: 757.942 ms)
+[2026.05.20-13.20.14:025][408]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.20.14:025][408]LogContentValidation: Enabled validators:
+[2026.05.20-13.20.14:025][408]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.20.14:025][408]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.20.14:025][408]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.20.14:025][408]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.20.14:025][408]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.20.14:025][408]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.20.14:025][408]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.22.47:465][516]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.22.47:549][516]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.22.47:549][516]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.22.47:569][516]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.22.47:569][516]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovement594C0D3B4A5B21DB615721A38C99CE91.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.22.47:580][516]LogFileHelpers: InternalPromptForCheckoutAndSave took 114.728 ms (total: 872.670 ms)
+[2026.05.20-13.22.47:687][516]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.22.47:687][516]LogContentValidation: Enabled validators:
+[2026.05.20-13.22.47:687][516]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.22.47:687][516]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.22.47:687][516]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.22.47:687][516]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.22.47:687][516]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.22.47:687][516]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.22.47:687][516]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.23.03:107][437]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.23.03:184][437]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.23.03:184][437]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.23.03:203][437]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.23.03:204][437]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovementDBC2CCF548691AD397037EBAAC993166.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.23.03:213][437]LogFileHelpers: InternalPromptForCheckoutAndSave took 106.003 ms (total: 978.673 ms)
+[2026.05.20-13.23.03:316][437]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.23.03:316][437]LogContentValidation: Enabled validators:
+[2026.05.20-13.23.03:316][437]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.23.03:316][437]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.23.03:316][437]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.23.03:316][437]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.23.03:316][437]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.23.03:316][437]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.23.03:316][437]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.23.04:127][481]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2026.05.20-13.23.30:053][531]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.05.20-13.23.55:108][774]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.23.55:191][774]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.23.55:191][774]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.23.55:212][774]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.23.55:212][774]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovementF134F1E042763B32DB1A5E98275C9115.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.23.55:222][774]LogFileHelpers: InternalPromptForCheckoutAndSave took 114.426 ms (total: 1.09 sec)
+[2026.05.20-13.23.55:329][774]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.23.55:329][774]LogContentValidation: Enabled validators:
+[2026.05.20-13.23.55:329][774]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.23.55:330][774]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.23.55:330][774]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.23.55:330][774]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.23.55:330][774]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.23.55:330][774]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.23.55:330][774]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.25.24:703][309]LogEditorTransaction: Undo Delete current selection
+[2026.05.20-13.25.53:589][261]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4359.810059
+[2026.05.20-13.25.53:773][272]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-13.25.53:773][272]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4359.977051, Update Interval: 328.746613
+[2026.05.20-13.26.30:624][865]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.26.30:711][865]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.26.30:711][865]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.26.30:731][865]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.26.30:731][865]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovement4A60449E42A80347051648A68CA757B7.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.26.30:742][865]LogFileHelpers: InternalPromptForCheckoutAndSave took 117.037 ms (total: 1.21 sec)
+[2026.05.20-13.26.30:854][865]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.26.30:854][865]LogContentValidation: Enabled validators:
+[2026.05.20-13.26.30:854][865]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.26.30:854][865]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.26.30:854][865]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.26.30:854][865]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.26.30:854][865]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.26.30:854][865]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.26.30:854][865]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.26.31:234][884]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.05.20-13.26.56:338][472]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.05.20-13.26.56:342][472]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Scene/GymRoom' took 0.031
+[2026.05.20-13.26.56:343][472]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_Player] ([2] browsable assets)...
+[2026.05.20-13.26.56:343][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2026.05.20-13.26.56:358][472]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player/BP_Player_Auto5
+[2026.05.20-13.26.56:358][472]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/BP_Player_Auto5E8175D0949D1B875829234BEDB355A80.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/Autosaves/Game/Player/BP_Player_Auto5.uasset'
+[2026.05.20-13.26.56:359][472]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.26.56:359][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.26.56:378][472]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Component/ParckourMovement_Auto5
+[2026.05.20-13.26.56:378][472]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovement_Auto553654A31413CBED93E658A987C5A13E2.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/Autosaves/Game/Component/ParckourMovement_Auto5.uasset'
+[2026.05.20-13.26.56:379][472]LogFileHelpers: Auto-saving content packages took 0.036
+[2026.05.20-13.27.31:307][335]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.27.31:392][335]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.27.31:392][335]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.27.31:411][335]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.27.31:411][335]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovement995882234BCB0B66264A1FBEB7E996DE.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.27.31:422][335]LogFileHelpers: InternalPromptForCheckoutAndSave took 115.919 ms (total: 1.32 sec)
+[2026.05.20-13.27.31:533][335]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.27.31:533][335]LogContentValidation: Enabled validators:
+[2026.05.20-13.27.31:533][335]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.27.31:533][335]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.27.31:533][335]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.27.31:533][335]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.27.31:533][335]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.27.31:533][335]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.27.31:533][335]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.27.33:472][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2026.05.20-13.28.44:973][632]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.28.45:048][632]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.28.45:048][632]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.28.45:068][632]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.28.45:069][632]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovementCA9A4E8141510C9A7918B89411C3AEA5.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.28.45:079][632]LogFileHelpers: InternalPromptForCheckoutAndSave took 106.123 ms (total: 1.43 sec)
+[2026.05.20-13.28.45:188][632]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.28.45:188][632]LogContentValidation: Enabled validators:
+[2026.05.20-13.28.45:188][632]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.28.45:188][632]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.28.45:188][632]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.28.45:188][632]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.28.45:188][632]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.28.45:188][632]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.28.45:188][632]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.29.35:474][651]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.29.35:557][651]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.29.35:557][651]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.29.35:577][651]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.29.35:577][651]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovement7FE61F784F2360173CDCFBBE0225AE65.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.29.35:589][651]LogFileHelpers: InternalPromptForCheckoutAndSave took 114.550 ms (total: 1.54 sec)
+[2026.05.20-13.29.35:702][651]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.29.35:702][651]LogContentValidation: Enabled validators:
+[2026.05.20-13.29.35:702][651]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.29.35:702][651]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.29.35:702][651]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.29.35:702][651]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.29.35:702][651]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.29.35:702][651]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.29.35:702][651]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.29.49:698][130]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.29.49:782][130]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.29.49:782][130]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.29.49:803][130]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.29.49:803][130]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovementABA861024B4B75DF5E86BB886F6BD7EA.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.29.49:813][130]LogFileHelpers: InternalPromptForCheckoutAndSave took 115.820 ms (total: 1.66 sec)
+[2026.05.20-13.29.49:916][130]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.29.49:916][130]LogContentValidation: Enabled validators:
+[2026.05.20-13.29.49:916][130]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.29.49:916][130]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.29.49:916][130]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.29.49:916][130]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.29.49:916][130]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.29.49:916][130]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.29.49:916][130]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.30.04:475][723]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.30.04:562][723]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.30.04:563][723]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.30.04:582][723]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.30.04:583][723]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovement0BFE475C46D4F1214C19D386509868C6.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.30.04:594][723]LogFileHelpers: InternalPromptForCheckoutAndSave took 119.037 ms (total: 1.78 sec)
+[2026.05.20-13.30.04:702][723]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.30.04:702][723]LogContentValidation: Enabled validators:
+[2026.05.20-13.30.04:702][723]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.30.04:702][723]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.30.04:702][723]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.30.04:702][723]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.30.04:702][723]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.30.04:702][723]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.30.04:702][723]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.30.42:893][161]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.30.42:974][161]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.30.42:974][161]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.30.42:997][161]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.30.42:998][161]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovement35C6A23B4EC8A04907FAACA917C4C278.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.30.43:006][161]LogFileHelpers: InternalPromptForCheckoutAndSave took 113.681 ms (total: 1.89 sec)
+[2026.05.20-13.30.43:115][161]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.30.43:115][161]LogContentValidation: Enabled validators:
+[2026.05.20-13.30.43:115][161]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.30.43:115][161]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.30.43:115][161]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.30.43:115][161]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.30.43:115][161]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.30.43:115][161]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.30.43:115][161]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.31.07:079][ 74]LogEditorTransaction: Undo Replace Pin Variable
+[2026.05.20-13.32.13:111][834]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4739.312012
+[2026.05.20-13.32.13:811][838]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-13.32.13:811][838]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4739.679199, Update Interval: 306.709198
+[2026.05.20-13.32.52:917][489]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2026.05.20-13.33.18:913][486]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.33.18:996][486]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.33.18:996][486]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.33.19:019][486]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.33.19:019][486]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovement7E0805684B54A102E673769C37B77178.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.33.19:029][486]LogFileHelpers: InternalPromptForCheckoutAndSave took 115.707 ms (total: 2.01 sec)
+[2026.05.20-13.33.19:137][486]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.33.19:137][486]LogContentValidation: Enabled validators:
+[2026.05.20-13.33.19:137][486]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.33.19:137][486]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.33.19:137][486]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.33.19:137][486]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.33.19:137][486]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.33.19:137][486]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.33.19:137][486]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.33.57:972][245]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.33.58:054][245]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.33.58:054][245]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.33.58:078][245]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.33.58:079][245]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovement439C0636497E3ACF3A9A03A7BB31A0EA.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.33.58:089][245]LogFileHelpers: InternalPromptForCheckoutAndSave took 118.289 ms (total: 2.12 sec)
+[2026.05.20-13.33.58:191][245]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.33.58:191][245]LogContentValidation: Enabled validators:
+[2026.05.20-13.33.58:191][245]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.33.58:191][245]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.33.58:191][245]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.33.58:191][245]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.33.58:191][245]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.33.58:191][245]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.33.58:191][245]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.33.58:864][281]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2026.05.20-13.35.32:625][  7]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.35.32:707][  7]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.35.32:707][  7]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.35.32:731][  7]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.35.32:732][  7]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovementD793EEFB43E95A634E2CD9AAC292F75E.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.35.32:743][  7]LogFileHelpers: InternalPromptForCheckoutAndSave took 117.011 ms (total: 2.24 sec)
+[2026.05.20-13.35.32:854][  7]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.35.32:854][  7]LogContentValidation: Enabled validators:
+[2026.05.20-13.35.32:854][  7]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.35.32:854][  7]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.35.32:854][  7]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.35.32:854][  7]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.35.32:854][  7]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.35.32:854][  7]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.35.32:854][  7]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.36.19:292][629]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.36.19:388][629]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.36.19:388][629]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.36.19:412][629]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.36.19:412][629]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovement20F99EEE49B89B9BDF241AB33F8E1E94.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.36.19:422][629]LogFileHelpers: InternalPromptForCheckoutAndSave took 129.686 ms (total: 2.37 sec)
+[2026.05.20-13.36.19:537][629]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.36.19:537][629]LogContentValidation: Enabled validators:
+[2026.05.20-13.36.19:537][629]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.36.19:537][629]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.36.19:537][629]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.36.19:537][629]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.36.19:537][629]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.36.19:537][629]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.36.19:537][629]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.37.44:922][911]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.37.45:005][911]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.37.45:006][911]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.37.45:032][911]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.37.45:032][911]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovement407C90BE48D756A4B92FB49502082C77.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.37.45:041][911]LogFileHelpers: InternalPromptForCheckoutAndSave took 119.395 ms (total: 2.49 sec)
+[2026.05.20-13.37.45:149][911]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.37.45:149][911]LogContentValidation: Enabled validators:
+[2026.05.20-13.37.45:149][911]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.37.45:149][911]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.37.45:149][911]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.37.45:149][911]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.37.45:149][911]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.37.45:149][911]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.37.45:150][911]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.38.19:651][671]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5105.870117
+[2026.05.20-13.38.19:852][683]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-13.38.19:852][683]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5106.053711, Update Interval: 354.120300
+[2026.05.20-13.38.43:201][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.38.43:293][ 81]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.38.43:293][ 81]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.38.43:320][ 81]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.38.43:320][ 81]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovementC84FE1B44796DA0E1EAC21ABF4344AA8.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.38.43:330][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave took 129.389 ms (total: 2.62 sec)
+[2026.05.20-13.38.43:442][ 81]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.38.43:442][ 81]LogContentValidation: Enabled validators:
+[2026.05.20-13.38.43:442][ 81]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.38.43:442][ 81]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.38.43:442][ 81]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.38.43:442][ 81]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.38.43:442][ 81]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.38.43:442][ 81]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.38.43:442][ 81]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.38.51:307][551]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.38.51:390][551]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.38.51:390][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.38.51:418][551]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.38.51:419][551]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovementC5BAE5D9499159CB9A31E0AF123CBC65.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.38.51:428][551]LogFileHelpers: InternalPromptForCheckoutAndSave took 121.888 ms (total: 2.74 sec)
+[2026.05.20-13.38.51:538][551]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.38.51:538][551]LogContentValidation: Enabled validators:
+[2026.05.20-13.38.51:538][551]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.38.51:538][551]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.38.51:538][551]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.38.51:538][551]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.38.51:538][551]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.38.51:538][551]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.38.51:538][551]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.38.52:138][581]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2026.05.20-13.41.07:495][342]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.41.07:566][342]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.41.07:567][342]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.41.07:594][342]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.41.07:594][342]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovement2632D7364ABDFE29D5B0E694A6B23E52.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.41.07:604][342]LogFileHelpers: InternalPromptForCheckoutAndSave took 109.563 ms (total: 2.85 sec)
+[2026.05.20-13.41.07:714][342]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.41.07:714][342]LogContentValidation: Enabled validators:
+[2026.05.20-13.41.07:714][342]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.41.07:714][342]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.41.07:714][342]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.41.07:714][342]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.41.07:714][342]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.41.07:714][342]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.41.07:715][342]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.41.08:804][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2026.05.20-13.42.56:150][268]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.42.56:227][268]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.42.56:227][268]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.42.56:256][268]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.42.56:257][268]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovement236E31F24FF8A27B1DCF4B8F7D6D15B4.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.42.56:267][268]LogFileHelpers: InternalPromptForCheckoutAndSave took 116.292 ms (total: 2.97 sec)
+[2026.05.20-13.42.56:376][268]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.42.56:376][268]LogContentValidation: Enabled validators:
+[2026.05.20-13.42.56:376][268]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.42.56:376][268]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.42.56:376][268]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.42.56:376][268]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.42.56:376][268]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.42.56:376][268]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.42.56:377][268]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.43.15:465][939]LogEditorTransaction: Undo Change String Pin Value
+[2026.05.20-13.43.37:104][840]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.43.37:184][840]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.43.37:184][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.43.37:211][840]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.43.37:212][840]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovementADCBAD3C4588274C5193098A61D17E9D.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.43.37:222][840]LogFileHelpers: InternalPromptForCheckoutAndSave took 118.742 ms (total: 3.09 sec)
+[2026.05.20-13.43.37:331][840]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.43.37:331][840]LogContentValidation: Enabled validators:
+[2026.05.20-13.43.37:331][840]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.43.37:331][840]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.43.37:331][840]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.43.37:331][840]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.43.37:331][840]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.43.37:331][840]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.43.37:332][840]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.44.04:311][597]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-13.44.04:394][597]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-13.44.04:394][597]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-13.44.04:421][597]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-13.44.04:422][597]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovement43457B6E4A490A85F06672987334A4D0.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-13.44.04:433][597]LogFileHelpers: InternalPromptForCheckoutAndSave took 122.560 ms (total: 3.21 sec)
+[2026.05.20-13.44.04:543][597]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-13.44.04:543][597]LogContentValidation: Enabled validators:
+[2026.05.20-13.44.04:543][597]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-13.44.04:543][597]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-13.44.04:543][597]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-13.44.04:543][597]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-13.44.04:543][597]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-13.44.04:543][597]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-13.44.04:543][597]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-13.44.05:320][639]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.05.20-13.44.29:753][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.05.20-13.44.29:761][763]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Scene/GymRoom' took 0.037
+[2026.05.20-13.44.29:761][763]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_Player] ([2] browsable assets)...
+[2026.05.20-13.44.29:761][763]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2026.05.20-13.44.29:781][763]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player/BP_Player_Auto6
+[2026.05.20-13.44.29:782][763]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/BP_Player_Auto65DF55A7049EDE0C4F66B40862FD3AACB.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/Autosaves/Game/Player/BP_Player_Auto6.uasset'
+[2026.05.20-13.44.29:783][763]LogFileHelpers: Auto-saving content packages took 0.022
+[2026.05.20-13.44.57:308][846]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5503.544434
+[2026.05.20-13.44.58:308][849]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-13.44.58:308][849]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5504.213379, Update Interval: 303.070770
+[2026.05.20-13.50.55:022][919]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5861.257324
+[2026.05.20-13.50.56:023][922]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-13.50.56:023][922]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5861.924805, Update Interval: 318.900726
+[2026.05.20-13.55.20:748][435]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2026.05.20-13.55.20:755][435]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Scene/GymRoom' took 0.040
+[2026.05.20-13.55.20:755][435]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_Player] ([2] browsable assets)...
+[2026.05.20-13.55.20:756][435]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2026.05.20-13.55.20:776][435]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player/BP_Player_Auto7
+[2026.05.20-13.55.20:776][435]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/BP_Player_Auto7CA4562AB407DCC00854DABA4C171EA9A.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/Autosaves/Game/Player/BP_Player_Auto7.uasset'
+[2026.05.20-13.55.20:777][435]LogFileHelpers: Auto-saving content packages took 0.022
+[2026.05.20-13.57.13:179][140]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6239.389160
+[2026.05.20-13.57.13:349][150]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-13.57.13:349][150]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6239.541504, Update Interval: 313.077789
+[2026.05.20-13.57.13:794][172]LogStreaming: Display: FlushAsyncLoading(529): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.20-14.03.23:073][561]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6609.243164
+[2026.05.20-14.03.24:072][564]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-14.03.24:073][564]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6609.909668, Update Interval: 314.623260
+[2026.05.20-14.05.10:309][509]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-14.05.10:412][509]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_PlayerControler] ([2] browsable assets)...
+[2026.05.20-14.05.10:412][509]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_PlayerControler]
+[2026.05.20-14.05.10:428][509]LogSavePackage: Moving output files for package: /Game/Player/BP_PlayerControler
+[2026.05.20-14.05.10:429][509]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/BP_PlayerControler55159FD64AB3E24C53D9DDBE1CF5F584.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Player/BP_PlayerControler.uasset'
+[2026.05.20-14.05.10:446][509]LogFileHelpers: InternalPromptForCheckoutAndSave took 136.839 ms (total: 3.35 sec)
+[2026.05.20-14.05.10:580][509]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-14.05.10:580][509]LogContentValidation: Enabled validators:
+[2026.05.20-14.05.10:580][509]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-14.05.10:580][509]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-14.05.10:580][509]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-14.05.10:580][509]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-14.05.10:580][509]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-14.05.10:580][509]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-14.05.10:581][509]AssetCheck: /Game/Player/BP_PlayerControler Validating asset
+[2026.05.20-14.05.35:698][ 11]LogEditorTransaction: Undo Move Node
+[2026.05.20-14.05.36:150][ 23]LogEditorTransaction: Undo Move Node
+[2026.05.20-14.05.36:464][ 37]LogEditorTransaction: Undo Move Node
+[2026.05.20-14.05.36:881][ 60]LogEditorTransaction: Undo Create Reroute Node
+[2026.05.20-14.05.37:282][ 82]LogEditorTransaction: Undo Move Node
+[2026.05.20-14.05.37:668][103]LogEditorTransaction: Undo Create Reroute Node
+[2026.05.20-14.05.39:173][191]LogEditorTransaction: Undo Move Node
+[2026.05.20-14.05.39:580][213]LogEditorTransaction: Undo Move Node
+[2026.05.20-14.05.40:631][259]LogEditorTransaction: Undo Move Node
+[2026.05.20-14.05.42:737][383]LogEditorTransaction: Undo Move Node
+[2026.05.20-14.05.43:061][400]LogEditorTransaction: Undo Move Node
+[2026.05.20-14.05.43:437][420]LogEditorTransaction: Undo Move Node
+[2026.05.20-14.05.44:896][490]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-14.05.45:003][490]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_PlayerControler] ([2] browsable assets)...
+[2026.05.20-14.05.45:003][490]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_PlayerControler]
+[2026.05.20-14.05.45:017][490]LogSavePackage: Moving output files for package: /Game/Player/BP_PlayerControler
+[2026.05.20-14.05.45:018][490]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/BP_PlayerControler45F1DEF245069C977411BCA48726A49F.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Player/BP_PlayerControler.uasset'
+[2026.05.20-14.05.45:032][490]LogFileHelpers: InternalPromptForCheckoutAndSave took 135.520 ms (total: 3.48 sec)
+[2026.05.20-14.05.45:148][490]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-14.05.45:148][490]LogContentValidation: Enabled validators:
+[2026.05.20-14.05.45:148][490]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-14.05.45:148][490]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-14.05.45:148][490]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-14.05.45:148][490]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-14.05.45:148][490]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-14.05.45:148][490]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-14.05.45:148][490]AssetCheck: /Game/Player/BP_PlayerControler Validating asset
+[2026.05.20-14.06.20:788][473]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2026.05.20-14.06.20:801][473]LogContentBrowser: Creating deferred item: NewInputAction
+[2026.05.20-14.06.20:819][474]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2026.05.20-14.06.33:684][246]LogContentBrowser: Attempting asset rename: NewInputAction -> IN_Turn
+[2026.05.20-14.06.33:685][246]LogContentBrowser: End creating deferred item NewInputAction
+[2026.05.20-14.06.37:088][441]LogContentBrowser: Deferred new asset file creation: IN_Turn1
+[2026.05.20-14.06.37:096][441]LogContentBrowser: Creating deferred item: IN_Turn1
+[2026.05.20-14.06.37:112][442]LogContentBrowser: Renaming the item being created (Deferred Item: IN_Turn1).
+[2026.05.20-14.07.35:118][920]LogContentBrowser: Attempting asset rename: IN_Turn1 -> IN_LookUp
+[2026.05.20-14.07.35:120][920]LogContentBrowser: End creating deferred item IN_Turn1
+[2026.05.20-14.07.37:643][ 46]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Blueprint/InputSystem/PlayerInputContext/IN_LookUp.IN_LookUp
+[2026.05.20-14.07.43:513][370]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-14.07.43:601][370]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/InputSystem/PlayerInputContext/IN_LookUp] ([1] browsable assets)...
+[2026.05.20-14.07.43:601][370]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/InputSystem/PlayerInputContext/IN_LookUp]
+[2026.05.20-14.07.43:609][370]LogSavePackage: Moving output files for package: /Game/Blueprint/InputSystem/PlayerInputContext/IN_LookUp
+[2026.05.20-14.07.43:609][370]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/IN_LookUpC181A3AC4108F42E745D36925A822463.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Blueprint/InputSystem/PlayerInputContext/IN_LookUp.uasset'
+[2026.05.20-14.07.43:625][370]LogFileHelpers: InternalPromptForCheckoutAndSave took 112.056 ms (total: 3.59 sec)
+[2026.05.20-14.07.43:734][370]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-14.07.43:734][370]LogContentValidation: Enabled validators:
+[2026.05.20-14.07.43:734][370]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-14.07.43:734][370]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-14.07.43:734][370]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-14.07.43:734][370]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-14.07.43:734][370]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-14.07.43:734][370]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-14.07.43:735][370]AssetCheck: /Game/Blueprint/InputSystem/PlayerInputContext/IN_LookUp Validating asset
+[2026.05.20-14.07.43:754][370]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/SourceControl/UncontrolledChangelists.json
+[2026.05.20-14.07.50:009][732]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/Blueprint/InputSystem/PlayerInputContext/IN_Turn.IN_Turn
+[2026.05.20-14.07.52:839][879]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-14.07.52:922][879]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/InputSystem/PlayerInputContext/IN_Turn] ([1] browsable assets)...
+[2026.05.20-14.07.52:922][879]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/InputSystem/PlayerInputContext/IN_Turn]
+[2026.05.20-14.07.52:930][879]LogSavePackage: Moving output files for package: /Game/Blueprint/InputSystem/PlayerInputContext/IN_Turn
+[2026.05.20-14.07.52:931][879]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/IN_Turn597756B9467978F39AD5BB9329260430.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Blueprint/InputSystem/PlayerInputContext/IN_Turn.uasset'
+[2026.05.20-14.07.52:944][879]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.859 ms (total: 3.70 sec)
+[2026.05.20-14.07.53:056][879]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-14.07.53:056][879]LogContentValidation: Enabled validators:
+[2026.05.20-14.07.53:056][879]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-14.07.53:056][879]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-14.07.53:056][879]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-14.07.53:056][879]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-14.07.53:056][879]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-14.07.53:056][879]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-14.07.53:056][879]AssetCheck: /Game/Blueprint/InputSystem/PlayerInputContext/IN_Turn Validating asset
+[2026.05.20-14.07.53:075][879]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/SourceControl/UncontrolledChangelists.json
+[2026.05.20-14.07.58:531][200]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/Blueprint/InputSystem/MI_PlayerInputMapping.MI_PlayerInputMapping
+[2026.05.20-14.08.36:404][387]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-14.08.36:493][387]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/InputSystem/MI_PlayerInputMapping] ([1] browsable assets)...
+[2026.05.20-14.08.36:493][387]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/InputSystem/MI_PlayerInputMapping]
+[2026.05.20-14.08.36:501][387]LogSavePackage: Moving output files for package: /Game/Blueprint/InputSystem/MI_PlayerInputMapping
+[2026.05.20-14.08.36:502][387]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/MI_PlayerInputMappingEAD6278F4FCFBDEE7F13DA8BE6B414F5.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Blueprint/InputSystem/MI_PlayerInputMapping.uasset'
+[2026.05.20-14.08.36:513][387]LogFileHelpers: InternalPromptForCheckoutAndSave took 108.147 ms (total: 3.81 sec)
+[2026.05.20-14.08.36:626][387]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-14.08.36:626][387]LogContentValidation: Enabled validators:
+[2026.05.20-14.08.36:626][387]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-14.08.36:626][387]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-14.08.36:626][387]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-14.08.36:626][387]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-14.08.36:626][387]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-14.08.36:626][387]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-14.08.36:626][387]AssetCheck: /Game/Blueprint/InputSystem/MI_PlayerInputMapping Validating asset
+[2026.05.20-14.08.45:978][948]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-14.08.46:066][948]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/InputSystem/MI_PlayerInputMapping] ([1] browsable assets)...
+[2026.05.20-14.08.46:066][948]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/InputSystem/MI_PlayerInputMapping]
+[2026.05.20-14.08.46:069][948]LogSavePackage: Moving output files for package: /Game/Blueprint/InputSystem/MI_PlayerInputMapping
+[2026.05.20-14.08.46:070][948]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/MI_PlayerInputMapping01347A5F4D16F25AB268B1836C13CEE9.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Blueprint/InputSystem/MI_PlayerInputMapping.uasset'
+[2026.05.20-14.08.46:080][948]LogFileHelpers: InternalPromptForCheckoutAndSave took 102.295 ms (total: 3.91 sec)
+[2026.05.20-14.08.46:194][948]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-14.08.46:195][948]LogContentValidation: Enabled validators:
+[2026.05.20-14.08.46:195][948]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-14.08.46:195][948]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-14.08.46:195][948]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-14.08.46:195][948]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-14.08.46:195][948]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-14.08.46:195][948]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-14.08.46:195][948]AssetCheck: /Game/Blueprint/InputSystem/MI_PlayerInputMapping Validating asset
+[2026.05.20-14.09.30:260][405]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6976.353027
+[2026.05.20-14.09.30:443][416]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-14.09.30:443][416]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6976.518555, Update Interval: 352.195801
+[2026.05.20-14.09.35:661][728]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-14.09.35:745][728]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_PlayerControler] ([2] browsable assets)...
+[2026.05.20-14.09.35:746][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_PlayerControler]
+[2026.05.20-14.09.35:761][728]LogSavePackage: Moving output files for package: /Game/Player/BP_PlayerControler
+[2026.05.20-14.09.35:762][728]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/BP_PlayerControlerE596AC5545329B1173D8E6B36613E286.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Player/BP_PlayerControler.uasset'
+[2026.05.20-14.09.35:772][728]LogFileHelpers: InternalPromptForCheckoutAndSave took 111.381 ms (total: 4.02 sec)
+[2026.05.20-14.09.35:888][728]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-14.09.35:888][728]LogContentValidation: Enabled validators:
+[2026.05.20-14.09.35:888][728]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-14.09.35:888][728]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-14.09.35:888][728]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-14.09.35:888][728]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-14.09.35:888][728]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-14.09.35:888][728]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-14.09.35:889][728]AssetCheck: /Game/Player/BP_PlayerControler Validating asset
+[2026.05.20-14.09.36:566][768]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.05.20-14.09.36:587][768]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2026.05.20-14.09.36:640][768]LogPlayLevel: [PlayLevel] Compiling BP_PlayerControler before play...
+[2026.05.20-14.09.36:754][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2026.05.20-14.09.36:759][768]LogPlayLevel: PlayLevel: Blueprint regeneration took 186 ms (2 blueprints)
+[2026.05.20-14.09.36:759][768]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-14.09.36:761][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001608s)
+[2026.05.20-14.09.36:761][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/GymRoom.GymRoom to /Game/Scene/UEDPIE_0_GymRoom.GymRoom (0.001660s)
+[2026.05.20-14.09.36:787][768]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2026.05.20-14.09.36:789][768]LogChaosDD: Creating Chaos Debug Draw Scene for world GymRoom
+[2026.05.20-14.09.36:792][768]LogPlayLevel: PIE: World Init took: (0.002524s)
+[2026.05.20-14.09.36:793][768]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2026.05.20-14.09.36:793][768]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.20-14.09.36:793][768]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.20-14.09.36:793][768]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.20-14.09.36:793][768]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.20-14.09.36:793][768]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.20-14.09.36:793][768]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.20-14.09.36:793][768]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.20-14.09.36:793][768]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.20-14.09.36:793][768]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.20-14.09.36:793][768]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.20-14.09.36:793][768]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.20-14.09.36:796][768]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.20-14.09.36:869][768]LogAudioMixer: Display: Using Audio Hardware Device Casque (USBC Headset)
+[2026.05.20-14.09.36:869][768]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.20-14.09.36:869][768]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.20-14.09.36:869][768]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.20-14.09.36:869][768]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2026.05.20-14.09.36:869][768]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2026.05.20-14.09.36:872][768]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2026.05.20-14.09.36:872][768]LogInit: FAudioDevice initialized with ID 3.
+[2026.05.20-14.09.36:872][768]LogAudio: Display: Audio Device (ID: 3) registered with world 'GymRoom'.
+[2026.05.20-14.09.36:872][768]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2026.05.20-14.09.36:872][768]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2026.05.20-14.09.36:939][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-14.09.36:939][768]LogLoad: Game class is 'GM_Platformer3D_C'
+[2026.05.20-14.09.36:940][768]LogWorld: Bringing World /Game/Scene/UEDPIE_0_GymRoom.GymRoom up for play (max tick rate 60) at 2026.05.20-16.09.36
+[2026.05.20-14.09.36:940][768]LogWorld: Bringing up level for play took: 0.000747
+[2026.05.20-14.09.36:942][768]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2026.05.20-14.09.36:948][768]PIE: Server logged in
+[2026.05.20-14.09.36:949][768]PIE: Play in editor total start time 0,377 seconds.
+[2026.05.20-14.09.37:076][769]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.20-14.10.00:013][139]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-14.10.00:013][139]LogWorld: BeginTearingDown for /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-14.10.00:014][139]LogSlate: Window 'platformer3D Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.05.20-14.10.00:021][139]LogWorld: UWorld::CleanupWorld for GymRoom, bSessionEnded=true, bCleanupResources=true
+[2026.05.20-14.10.00:022][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-14.10.00:023][139]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.20-14.10.00:029][139]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-14.10.00:059][139]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2026.05.20-14.10.00:059][139]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=4
+[2026.05.20-14.10.00:065][139]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3, StreamState=2
+[2026.05.20-14.10.00:072][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.05.20-14.10.00:097][140]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2026.05.20-14.10.20:271][335]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-14.10.20:361][335]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint/InputSystem/MI_PlayerInputMapping] ([1] browsable assets)...
+[2026.05.20-14.10.20:361][335]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint/InputSystem/MI_PlayerInputMapping]
+[2026.05.20-14.10.20:370][335]LogSavePackage: Moving output files for package: /Game/Blueprint/InputSystem/MI_PlayerInputMapping
+[2026.05.20-14.10.20:371][335]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/MI_PlayerInputMappingA5F8E5734E6D81C66900D7806A960289.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Blueprint/InputSystem/MI_PlayerInputMapping.uasset'
+[2026.05.20-14.10.20:380][335]LogFileHelpers: InternalPromptForCheckoutAndSave took 108.823 ms (total: 4.13 sec)
+[2026.05.20-14.10.20:493][335]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-14.10.20:493][335]LogContentValidation: Enabled validators:
+[2026.05.20-14.10.20:493][335]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-14.10.20:493][335]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-14.10.20:493][335]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-14.10.20:493][335]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-14.10.20:493][335]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-14.10.20:493][335]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-14.10.20:494][335]AssetCheck: /Game/Blueprint/InputSystem/MI_PlayerInputMapping Validating asset
+[2026.05.20-14.10.22:748][466]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.05.20-14.10.22:754][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.20-14.10.22:754][466]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-14.10.22:755][466]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001339s)
+[2026.05.20-14.10.22:755][466]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/GymRoom.GymRoom to /Game/Scene/UEDPIE_0_GymRoom.GymRoom (0.001378s)
+[2026.05.20-14.10.22:783][466]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.05.20-14.10.22:788][466]LogChaosDD: Creating Chaos Debug Draw Scene for world GymRoom
+[2026.05.20-14.10.22:790][466]LogPlayLevel: PIE: World Init took: (0.001834s)
+[2026.05.20-14.10.22:790][466]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2026.05.20-14.10.22:790][466]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.20-14.10.22:790][466]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.20-14.10.22:790][466]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.20-14.10.22:790][466]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.20-14.10.22:790][466]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.20-14.10.22:790][466]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.20-14.10.22:790][466]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.20-14.10.22:790][466]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.20-14.10.22:790][466]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.20-14.10.22:790][466]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.20-14.10.22:790][466]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.20-14.10.22:793][466]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.20-14.10.22:862][466]LogAudioMixer: Display: Using Audio Hardware Device Casque (USBC Headset)
+[2026.05.20-14.10.22:863][466]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.20-14.10.22:863][466]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.20-14.10.22:863][466]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.20-14.10.22:863][466]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2026.05.20-14.10.22:863][466]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2026.05.20-14.10.22:866][466]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2026.05.20-14.10.22:866][466]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2026.05.20-14.10.22:866][466]LogInit: FAudioDevice initialized with ID 4.
+[2026.05.20-14.10.22:866][466]LogAudio: Display: Audio Device (ID: 4) registered with world 'GymRoom'.
+[2026.05.20-14.10.22:866][466]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2026.05.20-14.10.22:939][466]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-14.10.22:939][466]LogLoad: Game class is 'GM_Platformer3D_C'
+[2026.05.20-14.10.22:940][466]LogWorld: Bringing World /Game/Scene/UEDPIE_0_GymRoom.GymRoom up for play (max tick rate 60) at 2026.05.20-16.10.22
+[2026.05.20-14.10.22:940][466]LogWorld: Bringing up level for play took: 0.000857
+[2026.05.20-14.10.22:942][466]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2026.05.20-14.10.22:953][466]PIE: Server logged in
+[2026.05.20-14.10.22:958][466]PIE: Play in editor total start time 0,204 seconds.
+[2026.05.20-14.10.23:071][467]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.20-14.10.36:266][257]LogBlueprintUserMessages: [BP_Player_C_0] stop
+[2026.05.20-14.10.43:663][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-14.10.43:663][699]LogWorld: BeginTearingDown for /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-14.10.43:664][699]LogSlate: Window 'platformer3D Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.05.20-14.10.43:671][699]LogWorld: UWorld::CleanupWorld for GymRoom, bSessionEnded=true, bCleanupResources=true
+[2026.05.20-14.10.43:671][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-14.10.43:672][699]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.20-14.10.43:678][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-14.10.43:708][699]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2026.05.20-14.10.43:708][699]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=4
+[2026.05.20-14.10.43:710][699]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4, StreamState=2
+[2026.05.20-14.10.43:721][699]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.05.20-14.10.43:749][700]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2026.05.20-14.11.16:088][608]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2026.05.20-14.11.16:093][608]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Scene/GymRoom' took 0.032
+[2026.05.20-14.11.16:093][608]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_Player] ([2] browsable assets)...
+[2026.05.20-14.11.16:093][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2026.05.20-14.11.16:110][608]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player/BP_Player_Auto8
+[2026.05.20-14.11.16:110][608]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/BP_Player_Auto81E3A8439428ED652C0281098B7CB7B44.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/Autosaves/Game/Player/BP_Player_Auto8.uasset'
+[2026.05.20-14.11.16:111][608]LogFileHelpers: Auto-saving content packages took 0.018
+[2026.05.20-14.15.10:551][671]LogDerivedDataCache: C:/Users/md200/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.05.20-14.15.53:115][224]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7359.153320
+[2026.05.20-14.15.53:282][234]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-14.15.53:282][234]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7359.303223, Update Interval: 311.715454
+[2026.05.20-14.18.13:046][545]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.05.20-14.18.13:067][545]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2026.05.20-14.18.13:141][545]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2026.05.20-14.18.13:149][545]LogPlayLevel: PlayLevel: Blueprint regeneration took 93 ms (1 blueprints)
+[2026.05.20-14.18.13:149][545]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-14.18.13:150][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001398s)
+[2026.05.20-14.18.13:150][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/GymRoom.GymRoom to /Game/Scene/UEDPIE_0_GymRoom.GymRoom (0.001439s)
+[2026.05.20-14.18.13:176][545]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2026.05.20-14.18.13:178][545]LogChaosDD: Creating Chaos Debug Draw Scene for world GymRoom
+[2026.05.20-14.18.13:180][545]LogPlayLevel: PIE: World Init took: (0.001930s)
+[2026.05.20-14.18.13:181][545]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2026.05.20-14.18.13:181][545]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.20-14.18.13:181][545]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.20-14.18.13:181][545]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.20-14.18.13:181][545]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.20-14.18.13:181][545]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.20-14.18.13:181][545]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.20-14.18.13:181][545]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.20-14.18.13:181][545]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.20-14.18.13:181][545]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.20-14.18.13:181][545]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.20-14.18.13:181][545]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.20-14.18.13:183][545]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.20-14.18.13:260][545]LogAudioMixer: Display: Using Audio Hardware Device Casque (USBC Headset)
+[2026.05.20-14.18.13:260][545]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.20-14.18.13:260][545]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.20-14.18.13:260][545]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.20-14.18.13:260][545]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2026.05.20-14.18.13:260][545]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2026.05.20-14.18.13:263][545]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2026.05.20-14.18.13:263][545]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2026.05.20-14.18.13:263][545]LogInit: FAudioDevice initialized with ID 5.
+[2026.05.20-14.18.13:263][545]LogAudio: Display: Audio Device (ID: 5) registered with world 'GymRoom'.
+[2026.05.20-14.18.13:263][545]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2026.05.20-14.18.13:326][545]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-14.18.13:326][545]LogLoad: Game class is 'GM_Platformer3D_C'
+[2026.05.20-14.18.13:327][545]LogWorld: Bringing World /Game/Scene/UEDPIE_0_GymRoom.GymRoom up for play (max tick rate 60) at 2026.05.20-16.18.13
+[2026.05.20-14.18.13:327][545]LogWorld: Bringing up level for play took: 0.000745
+[2026.05.20-14.18.13:330][545]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2026.05.20-14.18.13:335][545]PIE: Server logged in
+[2026.05.20-14.18.13:337][545]PIE: Play in editor total start time 0,282 seconds.
+[2026.05.20-14.18.13:422][546]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.20-14.18.31:306][566]LogBlueprintUserMessages: [BP_Player_C_0] stop
+[2026.05.20-14.18.34:958][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-14.18.34:958][783]LogWorld: BeginTearingDown for /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-14.18.34:959][783]LogSlate: Window 'platformer3D Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.05.20-14.18.34:966][783]LogWorld: UWorld::CleanupWorld for GymRoom, bSessionEnded=true, bCleanupResources=true
+[2026.05.20-14.18.34:967][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-14.18.34:968][783]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.20-14.18.34:973][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-14.18.35:001][783]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2026.05.20-14.18.35:001][783]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=4
+[2026.05.20-14.18.35:003][783]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5, StreamState=2
+[2026.05.20-14.18.35:011][783]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.05.20-14.18.35:040][784]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2026.05.20-14.18.36:636][879]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-14.18.36:715][879]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_Player] ([2] browsable assets)...
+[2026.05.20-14.18.36:715][879]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2026.05.20-14.18.36:715][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Player/BP_Player.uasset" SILENT=true
+[2026.05.20-14.18.36:729][879]LogSavePackage: Moving output files for package: /Game/Player/BP_Player
+[2026.05.20-14.18.36:730][879]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/BP_Player254E486F42A6B5F478036990A2F0B4CC.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Player/BP_Player.uasset'
+[2026.05.20-14.18.36:742][879]LogFileHelpers: InternalPromptForCheckoutAndSave took 105.428 ms (total: 4.23 sec)
+[2026.05.20-14.18.36:852][879]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-14.18.36:852][879]LogContentValidation: Enabled validators:
+[2026.05.20-14.18.36:852][879]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-14.18.36:852][879]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-14.18.36:852][879]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-14.18.36:852][879]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-14.18.36:852][879]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-14.18.36:852][879]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-14.18.36:852][879]AssetCheck: /Game/Player/BP_Player Validating asset
+[2026.05.20-14.21.38:479][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2026.05.20-14.21.38:484][116]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Scene/GymRoom' took 0.031
+[2026.05.20-14.21.38:484][116]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_Player] ([2] browsable assets)...
+[2026.05.20-14.21.38:484][116]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2026.05.20-14.21.38:499][116]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player/BP_Player_Auto9
+[2026.05.20-14.21.38:499][116]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/BP_Player_Auto96F6C3CB2422A85B1432ECCB630DDC55A.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/Autosaves/Game/Player/BP_Player_Auto9.uasset'
+[2026.05.20-14.21.38:500][116]LogFileHelpers: Auto-saving content packages took 0.016
+[2026.05.20-14.21.59:370][179]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7725.378418
+[2026.05.20-14.22.00:370][182]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-14.22.00:370][182]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7726.044434, Update Interval: 320.444336
+[2026.05.20-14.22.26:519][301]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.05.20-14.22.26:528][301]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2026.05.20-14.22.26:603][301]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.05.20-14.22.26:606][301]LogPlayLevel: PlayLevel: Blueprint regeneration took 81 ms (1 blueprints)
+[2026.05.20-14.22.26:606][301]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-14.22.26:607][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001441s)
+[2026.05.20-14.22.26:607][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/GymRoom.GymRoom to /Game/Scene/UEDPIE_0_GymRoom.GymRoom (0.001481s)
+[2026.05.20-14.22.26:632][301]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2026.05.20-14.22.26:634][301]LogChaosDD: Creating Chaos Debug Draw Scene for world GymRoom
+[2026.05.20-14.22.26:636][301]LogPlayLevel: PIE: World Init took: (0.001869s)
+[2026.05.20-14.22.26:637][301]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2026.05.20-14.22.26:637][301]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.20-14.22.26:637][301]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.20-14.22.26:637][301]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.20-14.22.26:637][301]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.20-14.22.26:637][301]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.20-14.22.26:637][301]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.20-14.22.26:637][301]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.20-14.22.26:637][301]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.20-14.22.26:637][301]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.20-14.22.26:637][301]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.20-14.22.26:637][301]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.20-14.22.26:640][301]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.20-14.22.26:712][301]LogAudioMixer: Display: Using Audio Hardware Device Casque (USBC Headset)
+[2026.05.20-14.22.26:713][301]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.20-14.22.26:713][301]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.20-14.22.26:713][301]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.20-14.22.26:713][301]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2026.05.20-14.22.26:713][301]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2026.05.20-14.22.26:716][301]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2026.05.20-14.22.26:716][301]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2026.05.20-14.22.26:716][301]LogInit: FAudioDevice initialized with ID 6.
+[2026.05.20-14.22.26:716][301]LogAudio: Display: Audio Device (ID: 6) registered with world 'GymRoom'.
+[2026.05.20-14.22.26:716][301]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2026.05.20-14.22.26:776][301]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-14.22.26:776][301]LogLoad: Game class is 'GM_Platformer3D_C'
+[2026.05.20-14.22.26:777][301]LogWorld: Bringing World /Game/Scene/UEDPIE_0_GymRoom.GymRoom up for play (max tick rate 60) at 2026.05.20-16.22.26
+[2026.05.20-14.22.26:777][301]LogWorld: Bringing up level for play took: 0.000706
+[2026.05.20-14.22.26:780][301]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2026.05.20-14.22.26:785][301]PIE: Server logged in
+[2026.05.20-14.22.26:786][301]PIE: Play in editor total start time 0,261 seconds.
+[2026.05.20-14.22.26:919][302]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.20-14.22.32:840][607]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-14.22.32:840][607]LogWorld: BeginTearingDown for /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-14.22.32:841][607]LogSlate: Window 'platformer3D Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.05.20-14.22.32:848][607]LogWorld: UWorld::CleanupWorld for GymRoom, bSessionEnded=true, bCleanupResources=true
+[2026.05.20-14.22.32:848][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-14.22.32:849][607]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.20-14.22.32:855][607]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-14.22.32:883][607]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2026.05.20-14.22.32:883][607]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=4
+[2026.05.20-14.22.32:885][607]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6, StreamState=2
+[2026.05.20-14.22.32:892][607]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2026.05.20-14.22.32:926][608]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2026.05.20-14.28.16:787][866]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8102.779785
+[2026.05.20-14.28.16:974][877]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-14.28.16:974][877]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8102.950195, Update Interval: 315.302582
+[2026.05.20-14.31.38:461][612]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-14.31.38:554][612]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-14.31.38:554][612]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-14.31.38:592][612]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-14.31.38:592][612]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovement972C6A774086F05ADA0C879996061E78.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-14.31.38:604][612]LogFileHelpers: InternalPromptForCheckoutAndSave took 143.302 ms (total: 4.38 sec)
+[2026.05.20-14.31.38:719][612]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-14.31.38:719][612]LogContentValidation: Enabled validators:
+[2026.05.20-14.31.38:719][612]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-14.31.38:719][612]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-14.31.38:719][612]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-14.31.38:719][612]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-14.31.38:719][612]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-14.31.38:719][612]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-14.31.38:719][612]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-14.32.19:558][354]LogEditorTransaction: Undo Move Node
+[2026.05.20-14.32.30:236][952]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-14.32.30:321][952]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-14.32.30:321][952]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-14.32.30:353][952]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-14.32.30:353][952]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovementC645B1BF41ABD55DA4FF64BEBCEF4F1F.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-14.32.30:364][952]LogFileHelpers: InternalPromptForCheckoutAndSave took 127.435 ms (total: 4.50 sec)
+[2026.05.20-14.32.30:466][952]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-14.32.30:466][952]LogContentValidation: Enabled validators:
+[2026.05.20-14.32.30:466][952]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-14.32.30:466][952]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-14.32.30:466][952]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-14.32.30:466][952]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-14.32.30:466][952]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-14.32.30:466][952]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-14.32.30:466][952]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-14.32.46:218][280]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.05.20-14.32.49:813][489]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-14.32.49:894][489]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-14.32.49:894][489]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-14.32.49:922][489]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-14.32.49:922][489]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovementC1A10D7E45F17168C7B19F883A06BEA0.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-14.32.49:933][489]LogFileHelpers: InternalPromptForCheckoutAndSave took 120.759 ms (total: 4.63 sec)
+[2026.05.20-14.32.50:035][489]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-14.32.50:035][489]LogContentValidation: Enabled validators:
+[2026.05.20-14.32.50:035][489]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-14.32.50:035][489]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-14.32.50:035][489]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-14.32.50:035][489]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-14.32.50:035][489]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-14.32.50:035][489]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-14.32.50:035][489]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-14.33.16:262][649]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2026.05.20-14.33.16:270][649]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Scene/GymRoom' took 0.035
+[2026.05.20-14.33.16:271][649]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_Player] ([2] browsable assets)...
+[2026.05.20-14.33.16:271][649]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2026.05.20-14.33.16:285][649]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player/BP_Player_Auto0
+[2026.05.20-14.33.16:285][649]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/BP_Player_Auto0E64AF4EB423D82613738D0869D5A28BE.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/Autosaves/Game/Player/BP_Player_Auto0.uasset'
+[2026.05.20-14.33.16:287][649]LogFileHelpers: Auto-saving content packages took 0.017
+[2026.05.20-14.33.51:723][667]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-14.33.51:813][667]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.20-14.33.51:813][667]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.20-14.33.51:843][667]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.20-14.33.51:844][667]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovementA30D54A14B60285D34F859AD01AE0A1A.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.20-14.33.51:854][667]LogFileHelpers: InternalPromptForCheckoutAndSave took 131.367 ms (total: 4.76 sec)
+[2026.05.20-14.33.51:959][667]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-14.33.51:959][667]LogContentValidation: Enabled validators:
+[2026.05.20-14.33.51:959][667]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-14.33.51:959][667]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-14.33.51:959][667]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-14.33.51:959][667]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-14.33.51:959][667]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-14.33.51:959][667]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-14.33.51:959][667]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.20-14.34.18:238][799]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8464.208984
+[2026.05.20-14.34.19:239][802]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-14.34.19:239][802]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8464.876953, Update Interval: 342.181458
