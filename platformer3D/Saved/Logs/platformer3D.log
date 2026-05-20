@@ -1426,3 +1426,66 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2026.05.20-12.47.16:091][884]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2041.908325, Update Interval: 341.253082
 [2026.05.20-12.48.35:134][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
 [2026.05.20-12.48.36:256][212]LogSlate: Window 'Save Content' being destroyed
+[2026.05.20-12.51.17:887][833]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_5
+[2026.05.20-12.51.17:934][834]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_6
+[2026.05.20-12.51.19:802][945]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.05.20-12.51.19:811][945]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2026.05.20-12.51.19:843][945]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2026.05.20-12.51.19:873][945]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2026.05.20-12.51.19:876][945]LogPlayLevel: PlayLevel: Blueprint regeneration took 66 ms (2 blueprints)
+[2026.05.20-12.51.19:883][945]LogOnline: OSS: Created online subsystem instance for: NULL
+[2026.05.20-12.51.19:883][945]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2026.05.20-12.51.19:883][945]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-12.51.19:885][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001626s)
+[2026.05.20-12.51.19:885][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/GymRoom.GymRoom to /Game/Scene/UEDPIE_0_GymRoom.GymRoom (0.001717s)
+[2026.05.20-12.51.19:910][945]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.05.20-12.51.19:911][945]LogChaosDD: Creating Chaos Debug Draw Scene for world GymRoom
+[2026.05.20-12.51.19:913][945]LogPlayLevel: PIE: World Init took: (0.002021s)
+[2026.05.20-12.51.19:914][945]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2026.05.20-12.51.19:914][945]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.20-12.51.19:914][945]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.20-12.51.19:914][945]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.20-12.51.19:914][945]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.20-12.51.19:914][945]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.20-12.51.19:914][945]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.20-12.51.19:914][945]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.20-12.51.19:914][945]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.20-12.51.19:914][945]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.20-12.51.19:914][945]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.20-12.51.19:914][945]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.20-12.51.19:916][945]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.20-12.51.19:986][945]LogAudioMixer: Display: Using Audio Hardware Device Casque (USBC Headset)
+[2026.05.20-12.51.19:986][945]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.20-12.51.19:986][945]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.20-12.51.19:986][945]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.20-12.51.19:986][945]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2026.05.20-12.51.19:986][945]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2026.05.20-12.51.19:989][945]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2026.05.20-12.51.19:989][945]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2026.05.20-12.51.19:989][945]LogInit: FAudioDevice initialized with ID 2.
+[2026.05.20-12.51.19:989][945]LogAudio: Display: Audio Device (ID: 2) registered with world 'GymRoom'.
+[2026.05.20-12.51.19:989][945]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2026.05.20-12.51.20:067][945]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-12.51.20:067][945]LogLoad: Game class is 'GM_Platformer3D_C'
+[2026.05.20-12.51.20:068][945]LogWorld: Bringing World /Game/Scene/UEDPIE_0_GymRoom.GymRoom up for play (max tick rate 60) at 2026.05.20-14.51.20
+[2026.05.20-12.51.20:069][945]LogWorld: Bringing up level for play took: 0.000691
+[2026.05.20-12.51.20:071][945]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2026.05.20-12.51.20:088][945]PIE: Server logged in
+[2026.05.20-12.51.20:098][945]PIE: Play in editor total start time 0,289 seconds.
+[2026.05.20-12.51.20:185][945]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.20-12.51.20:191][946]LogCsvProfiler: Display: Metadata set : systemresolution.resx="1280"
+[2026.05.20-12.51.20:191][946]LogCsvProfiler: Display: Metadata set : systemresolution.resy="720"
+[2026.05.20-12.51.23:217][122]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-12.51.23:217][122]LogWorld: BeginTearingDown for /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-12.51.23:218][122]LogSlate: Window 'platformer3D Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.05.20-12.51.23:225][122]LogWorld: UWorld::CleanupWorld for GymRoom, bSessionEnded=true, bCleanupResources=true
+[2026.05.20-12.51.23:225][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-12.51.23:227][122]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.20-12.51.23:234][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-12.51.23:261][122]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2026.05.20-12.51.23:262][122]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=4
+[2026.05.20-12.51.23:264][122]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2, StreamState=2
+[2026.05.20-12.51.23:272][122]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2026.05.20-12.51.23:298][123]LogPlayLevel: Display: Destroying online subsystem :Context_8
