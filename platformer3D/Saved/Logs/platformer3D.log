@@ -2650,3 +2650,811 @@ Script Stack (0 frames) :
 [2026.05.20-14.59.04:800][ 61]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9950.479492
 [2026.05.20-14.59.05:798][ 64]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.05.20-14.59.05:798][ 64]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9951.143555, Update Interval: 346.413147
+[2026.05.20-15.00.37:152][271]LogStreaming: Display: FlushAsyncLoading(530): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.20-15.00.37:458][271]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/SciFITrooper_Man_03/Blueprints/BP_Character_Master.BP_Character_Master
+[2026.05.20-15.00.37:458][271]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2026.05.20-15.00.37:511][271]LogTexture: Display: Building textures: /Game/SciFITrooper_Man_03/Textures/T_SciFiTrooperV3_bottom_emissive.T_SciFiTrooperV3_bottom_emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2026.05.20-15.00.37:577][271]LogTexture: Display: Building textures: /Game/SciFITrooper_Man_03/Textures/T_SciFiTrooperV3_bottom_a.T_SciFiTrooperV3_bottom_a (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2026.05.20-15.00.37:579][271]LogTexture: Display: Building textures: /Game/SciFITrooper_Man_03/Textures/T_SciFiTrooperV3_top_emissive.T_SciFiTrooperV3_top_emissive (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2026.05.20-15.00.37:749][271]LogTexture: Display: Building textures: /Game/SciFITrooper_Man_03/Textures/T_SciFiTrooperV3_top_a.T_SciFiTrooperV3_top_a (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2026.05.20-15.00.37:762][271]LogTexture: Display: Building textures: /Game/SciFITrooper_Man_03/Textures/T_SciFiTrooperV3_bottom_ORM.T_SciFiTrooperV3_bottom_ORM (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2026.05.20-15.00.37:785][271]LogTexture: Display: Building textures: /Game/SciFITrooper_Man_03/Textures/T_SciFiTrooperV3_top_n_DirectX.T_SciFiTrooperV3_top_n_DirectX (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2026.05.20-15.00.37:909][271]LogTexture: Display: Building textures: /Game/SciFITrooper_Man_03/Textures/T_SciFiTrooperV3_bottom_n_DirectX.T_SciFiTrooperV3_bottom_n_DirectX (TFO_BC5, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2026.05.20-15.00.38:216][271]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2026.05.20-15.00.38:243][271]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_SciFITrooper_Man_03) ...
+[2026.05.20-15.00.38:295][271]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/SciFITrooper_Man_03/DemoContent/Anims/ThirdPersonIdle.ThirdPersonIdle (Required Memory Estimate: 1.24 MB)
+[2026.05.20-15.00.38:295][271]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/SciFITrooper_Man_03/DemoContent/Anims/ThirdPersonWalk.ThirdPersonWalk (Required Memory Estimate: 0.61 MB)
+[2026.05.20-15.00.38:295][271]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/SciFITrooper_Man_03/DemoContent/Anims/ThirdPersonRun.ThirdPersonRun (Required Memory Estimate: 0.45 MB)
+[2026.05.20-15.00.38:309][271]LogAnimationCompression: Display: Storing compressed animation data for /Game/SciFITrooper_Man_03/DemoContent/Anims/ThirdPersonRun.ThirdPersonRun, at AnimationSequence/fc337c4b570e3f7c84f104026934c68e12ca1fc7
+[2026.05.20-15.00.38:312][271]LogAnimationCompression: Display: Storing compressed animation data for /Game/SciFITrooper_Man_03/DemoContent/Anims/ThirdPersonWalk.ThirdPersonWalk, at AnimationSequence/e2c7dcdfe8f69bac972cba8ff52734b622c73d90
+[2026.05.20-15.00.38:316][271]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/SciFITrooper_Man_03/DemoContent/Anims/ThirdPersonJump_Start.ThirdPersonJump_Start (Required Memory Estimate: 0.40 MB)
+[2026.05.20-15.00.38:317][271]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/SciFITrooper_Man_03/DemoContent/Anims/ThirdPersonJump_Loop.ThirdPersonJump_Loop (Required Memory Estimate: 0.49 MB)
+[2026.05.20-15.00.38:320][271]LogAnimationCompression: Display: Storing compressed animation data for /Game/SciFITrooper_Man_03/DemoContent/Anims/ThirdPersonJump_Start.ThirdPersonJump_Start, at AnimationSequence/e76c52aed120fae51bf26216973e5e88d3a7ced4
+[2026.05.20-15.00.38:321][271]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/SciFITrooper_Man_03/DemoContent/Anims/ThirdPerson_Jump.ThirdPerson_Jump (Required Memory Estimate: 0.29 MB)
+[2026.05.20-15.00.38:322][271]LogAnimationCompression: Display: Storing compressed animation data for /Game/SciFITrooper_Man_03/DemoContent/Anims/ThirdPersonIdle.ThirdPersonIdle, at AnimationSequence/84234fbaffcb437e3a20c6e76f68922332cc53f4
+[2026.05.20-15.00.38:324][271]LogAnimationCompression: Display: Storing compressed animation data for /Game/SciFITrooper_Man_03/DemoContent/Anims/ThirdPerson_Jump.ThirdPerson_Jump, at AnimationSequence/eec449611d9a06c41de5b1cc25af02b5db69880a
+[2026.05.20-15.00.38:329][271]LogAnimationCompression: Display: Storing compressed animation data for /Game/SciFITrooper_Man_03/DemoContent/Anims/ThirdPersonJump_Loop.ThirdPersonJump_Loop, at AnimationSequence/ee8ca85dd84d356adef5859df864ac30c7505411
+[2026.05.20-15.00.38:358][271]LogSkeletalMesh: Building Skeletal Mesh SK_SciFITrooper_Man_03...
+[2026.05.20-15.00.38:479][271]LogSkeletalMesh: Built Skeletal Mesh [0.12s] /Game/SciFITrooper_Man_03/SkeletalMesh/SK_SciFITrooper_Man_03.SK_SciFITrooper_Man_03
+[2026.05.20-15.00.38:625][271]LogTexture: Display: Building textures: /Game/SciFITrooper_Man_03/Textures/T_SciFiTrooperV3_top_ORM.T_SciFiTrooperV3_top_ORM (TFO_AutoDXT, 4096x4096 x1x1x1) (Required Memory Estimate: 1152.999984 MB), EncodeSpeed: Fast
+[2026.05.20-15.00.38:819][271]LoadErrors: Warning: While trying to load package /Game/SciFITrooper_Man_03/SkeletalMesh/CH_SciFiTrooper_Man_03_Skeleton, a dependent package /Engine/EngineMeshes/Humanoid was not available. Additional explanatory information follows:
+FPackageName: Skipped package /Engine/EngineMeshes/Humanoid has a valid, mounted, mount point but does not exist either on disk or in iostore. The uncooked file would be expected on disk at 'C:/Program Files/Epic Games/UE_5.6/Engine/Content/EngineMeshes/Humanoid'. Perhaps it has been deleted or was not synced?
+
+[2026.05.20-15.00.40:079][332]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_10
+[2026.05.20-15.01.20:797][723]LogShaderCompilers: Display: ================================================
+[2026.05.20-15.01.20:797][723]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.05.20-15.01.20:797][723]LogShaderCompilers: Display: Total job queries 298, among them cache hits 25 (8.39%), DDC hits 202 (67.79%), Duplicates 65 (21.81%)
+[2026.05.20-15.01.20:797][723]LogShaderCompilers: Display: Tracking 208 distinct input hashes that result in 115 distinct outputs (55.29%)
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: RAM used: 1,02 MiB of 1,60 GiB budget. Usage: 0.06%
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Shaders Compiled: 6
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Jobs assigned 6, completed 6 (100%)
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Average time worker was idle: 0.33 s
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.11 s
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Job execution time: average 1.05 s, max 1.27 s
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Job life time (pending + execution): average 1.14 s, max 1.37
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Shader code size: total 53,445 KiB, numShaders 6, average 8,907 KiB, min 5,824 KiB, max 12,039 KiB
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.91 s
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Average processing rate: 2.06 jobs/sec
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Total thread time: 2,771 s
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Total thread preprocess time: 3,451 s
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Percentage time preprocessing: 124.54%
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Effective parallelization: 0.95 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.118858
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    2 times, average 0.64 sec, max 0.64 sec, min 0.63 sec)
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.43 sec, max 0.44 sec, min 0.43 sec)
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    2 times, average 0.31 sec, max 0.32 sec, min 0.31 sec)
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 46.09% of total time (compiled    2 times, average 0.64 sec, max 0.64 sec, min 0.63 sec)
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 31.38% of total time (compiled    2 times, average 0.43 sec, max 0.44 sec, min 0.43 sec)
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display:                                                 FLumenCardPS - 22.53% of total time (compiled    2 times, average 0.31 sec, max 0.32 sec, min 0.31 sec)
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display:                                      FLandscapeGrassWeightPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: === Material stats ===
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Materials Translated:    138
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Material Translation Only: 0.03 s (38%)
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: Material Cache Hits: 18 (13%)
+[2026.05.20-15.01.20:798][723]LogShaderCompilers: Display: ================================================
+[2026.05.20-15.02.01:433][ 45]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.05.20-15.02.01:452][ 45]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2026.05.20-15.02.01:606][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.05.20-15.02.01:611][ 45]LogPlayLevel: PlayLevel: Blueprint regeneration took 170 ms (1 blueprints)
+[2026.05.20-15.02.01:611][ 45]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-15.02.01:612][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001492s)
+[2026.05.20-15.02.01:612][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/GymRoom.GymRoom to /Game/Scene/UEDPIE_0_GymRoom.GymRoom (0.001543s)
+[2026.05.20-15.02.01:637][ 45]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.05.20-15.02.01:640][ 45]LogChaosDD: Creating Chaos Debug Draw Scene for world GymRoom
+[2026.05.20-15.02.01:642][ 45]LogPlayLevel: PIE: World Init took: (0.002029s)
+[2026.05.20-15.02.01:643][ 45]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2026.05.20-15.02.01:643][ 45]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.20-15.02.01:643][ 45]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.20-15.02.01:643][ 45]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.20-15.02.01:643][ 45]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.20-15.02.01:643][ 45]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.20-15.02.01:643][ 45]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.20-15.02.01:643][ 45]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.20-15.02.01:643][ 45]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.20-15.02.01:643][ 45]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.20-15.02.01:643][ 45]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.20-15.02.01:643][ 45]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.20-15.02.01:645][ 45]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.20-15.02.01:703][ 45]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.05.20-15.02.01:703][ 45]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.20-15.02.01:704][ 45]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.20-15.02.01:704][ 45]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.20-15.02.01:704][ 45]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2026.05.20-15.02.01:704][ 45]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2026.05.20-15.02.01:706][ 45]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2026.05.20-15.02.01:706][ 45]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2026.05.20-15.02.01:706][ 45]LogInit: FAudioDevice initialized with ID 7.
+[2026.05.20-15.02.01:706][ 45]LogAudio: Display: Audio Device (ID: 7) registered with world 'GymRoom'.
+[2026.05.20-15.02.01:706][ 45]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2026.05.20-15.02.01:768][ 45]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-15.02.01:768][ 45]LogLoad: Game class is 'GM_Platformer3D_C'
+[2026.05.20-15.02.01:768][ 45]LogWorld: Bringing World /Game/Scene/UEDPIE_0_GymRoom.GymRoom up for play (max tick rate 60) at 2026.05.20-17.02.01
+[2026.05.20-15.02.01:769][ 45]LogWorld: Bringing up level for play took: 0.000819
+[2026.05.20-15.02.01:771][ 45]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2026.05.20-15.02.01:778][ 45]PIE: Server logged in
+[2026.05.20-15.02.01:780][ 45]PIE: Play in editor total start time 0,34 seconds.
+[2026.05.20-15.02.02:010][ 46]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.20-15.02.03:001][ 87]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.03:001][ 87]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.08:534][419]LogBlueprintUserMessages: [BP_Player_C_0] stop
+[2026.05.20-15.02.10:865][559]LogBlueprintUserMessages: [BP_Player_C_0] stop
+[2026.05.20-15.02.14:582][782]LogBlueprintUserMessages: [BP_Player_C_0] stop
+[2026.05.20-15.02.25:399][431]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.25:399][431]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.25:482][436]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.25:482][436]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.25:682][448]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.25:682][448]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.25:749][452]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.25:749][452]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.25:815][456]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.25:815][456]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.26:249][482]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.26:249][482]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.26:316][486]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.26:316][486]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.26:382][490]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.26:382][490]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.26:732][511]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.26:732][511]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.27:965][585]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.27:965][585]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.28:032][589]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.28:032][589]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.28:333][607]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.28:333][607]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.28:399][611]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.28:399][611]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.28:566][621]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.28:566][621]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.28:632][625]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.28:632][625]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.28:798][635]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.28:798][635]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.28:882][640]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.28:882][640]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.29:498][677]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.29:498][677]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.29:582][682]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.29:582][682]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.29:732][691]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.29:732][691]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.29:799][695]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.29:799][695]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.29:882][700]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.29:883][700]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.30:166][717]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.30:166][717]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.30:232][721]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.30:232][721]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.30:298][725]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.30:298][725]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.30:382][730]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.30:383][730]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.30:532][739]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.30:532][739]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.30:599][743]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.30:599][743]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.31:283][784]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.31:283][784]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.31:348][788]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.31:348][788]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.31:415][792]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.31:415][792]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.31:882][820]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.31:882][820]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.31:948][824]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.31:948][824]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.32:016][828]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.32:016][828]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.32:082][832]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.32:082][832]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.32:416][852]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.32:416][852]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.32:482][856]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.32:482][856]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.32:916][882]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.32:916][882]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.32:982][886]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.32:982][886]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.33:048][890]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.33:048][890]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.33:115][894]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.33:115][894]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.33:182][898]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.33:183][898]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.33:248][902]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.33:248][902]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.33:315][906]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.33:315][906]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.33:382][910]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.33:382][910]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.33:582][922]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.33:582][922]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.34:582][982]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.34:582][982]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.34:649][986]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.34:649][986]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.35:098][ 13]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.35:098][ 13]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.35:182][ 18]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.35:182][ 18]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.35:333][ 27]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.35:333][ 27]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.35:399][ 31]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.35:399][ 31]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.35:849][ 58]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.35:849][ 58]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.36:732][111]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.36:732][111]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.36:799][115]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.36:799][115]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.38:298][205]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.38:298][205]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.39:216][260]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.39:216][260]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.39:282][264]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.39:282][264]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.40:166][317]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.40:166][317]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.41:532][399]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.41:532][399]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.42:482][456]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.42:482][456]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.42:548][460]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.42:548][460]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.42:616][464]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.42:616][464]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.42:916][482]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.42:916][482]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.42:982][486]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.42:982][486]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.43:165][497]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.43:165][497]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.43:232][501]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.43:232][501]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.43:382][510]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.43:382][510]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.43:449][514]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.43:449][514]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.44:092][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-15.02.44:092][551]LogWorld: BeginTearingDown for /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-15.02.44:092][551]LogSlate: Window 'platformer3D Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.05.20-15.02.44:099][551]LogWorld: UWorld::CleanupWorld for GymRoom, bSessionEnded=true, bCleanupResources=true
+[2026.05.20-15.02.44:100][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-15.02.44:100][551]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.20-15.02.44:107][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-15.02.44:134][551]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2026.05.20-15.02.44:135][551]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2026.05.20-15.02.44:137][551]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2026.05.20-15.02.44:160][551]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2026.05.20-15.02.44:199][552]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2026.05.20-15.02.45:737][644]LogEditorTransaction: Undo Edit Skeletal Mesh Asset
+[2026.05.20-15.02.46:785][686]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.05.20-15.02.46:791][686]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.20-15.02.46:791][686]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-15.02.46:793][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001834s)
+[2026.05.20-15.02.46:793][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/GymRoom.GymRoom to /Game/Scene/UEDPIE_0_GymRoom.GymRoom (0.001881s)
+[2026.05.20-15.02.46:822][686]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.05.20-15.02.46:829][686]LogChaosDD: Creating Chaos Debug Draw Scene for world GymRoom
+[2026.05.20-15.02.46:831][686]LogPlayLevel: PIE: World Init took: (0.001836s)
+[2026.05.20-15.02.46:831][686]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2026.05.20-15.02.46:831][686]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.20-15.02.46:831][686]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.20-15.02.46:831][686]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.20-15.02.46:831][686]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.20-15.02.46:831][686]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.20-15.02.46:831][686]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.20-15.02.46:831][686]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.20-15.02.46:831][686]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.20-15.02.46:831][686]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.20-15.02.46:831][686]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.20-15.02.46:831][686]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.20-15.02.46:834][686]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.20-15.02.46:895][686]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.05.20-15.02.46:895][686]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.20-15.02.46:895][686]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.20-15.02.46:895][686]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.20-15.02.46:895][686]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2026.05.20-15.02.46:895][686]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2026.05.20-15.02.46:897][686]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2026.05.20-15.02.46:897][686]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2026.05.20-15.02.46:897][686]LogInit: FAudioDevice initialized with ID 8.
+[2026.05.20-15.02.46:897][686]LogAudio: Display: Audio Device (ID: 8) registered with world 'GymRoom'.
+[2026.05.20-15.02.46:897][686]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2026.05.20-15.02.46:968][686]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-15.02.46:968][686]LogLoad: Game class is 'GM_Platformer3D_C'
+[2026.05.20-15.02.46:970][686]LogWorld: Bringing World /Game/Scene/UEDPIE_0_GymRoom.GymRoom up for play (max tick rate 60) at 2026.05.20-17.02.46
+[2026.05.20-15.02.46:970][686]LogWorld: Bringing up level for play took: 0.000752
+[2026.05.20-15.02.46:973][686]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2026.05.20-15.02.46:978][686]PIE: Server logged in
+[2026.05.20-15.02.46:979][686]PIE: Play in editor total start time 0,188 seconds.
+[2026.05.20-15.02.47:096][687]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.20-15.02.48:281][756]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.48:281][756]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.49:615][836]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.49:615][836]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.49:682][840]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.49:682][840]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.49:748][844]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.49:748][844]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.49:815][848]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.49:815][848]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.50:048][862]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.50:048][862]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.50:115][866]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.50:115][866]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.50:282][876]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.50:282][876]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.50:349][880]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.50:349][880]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.50:482][888]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.50:482][888]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.50:573][892]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.50:573][892]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.50:901][912]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.50:901][912]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.51:900][972]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.51:902][972]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.51:968][976]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.51:968][976]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.52:284][995]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.52:284][995]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.52:351][999]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.52:351][999]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.52:418][  3]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.52:418][  3]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.52:484][  7]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.52:484][  7]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.52:635][ 16]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.52:635][ 16]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.53:618][ 75]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.02.53:618][ 75]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.02.54:511][127]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-15.02.54:512][127]LogWorld: BeginTearingDown for /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-15.02.54:512][127]LogSlate: Window 'platformer3D Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.05.20-15.02.54:521][127]LogWorld: UWorld::CleanupWorld for GymRoom, bSessionEnded=true, bCleanupResources=true
+[2026.05.20-15.02.54:521][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-15.02.54:522][127]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.20-15.02.54:528][127]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-15.02.54:556][127]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2026.05.20-15.02.54:557][127]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2026.05.20-15.02.54:560][127]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2026.05.20-15.02.54:572][127]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.05.20-15.02.54:605][128]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2026.05.20-15.03.50:184][419]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.05.20-15.03.50:192][419]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Scene/GymRoom' took 0.036
+[2026.05.20-15.03.50:192][419]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_Player] ([2] browsable assets)...
+[2026.05.20-15.03.50:192][419]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2026.05.20-15.03.50:207][419]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Player/BP_Player_Auto1
+[2026.05.20-15.03.50:207][419]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/BP_Player_Auto15B6F5FE842CC30ACF1C4FA8462A62CFB.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/Autosaves/Game/Player/BP_Player_Auto1.uasset'
+[2026.05.20-15.03.50:208][419]LogFileHelpers: Auto-saving content packages took 0.016
+[2026.05.20-15.03.54:033][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.05.20-15.03.55:755][643]LogSlate: Window 'Save Content' being destroyed
+[2026.05.20-15.03.55:767][643]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-15.03.55:881][643]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Player/BP_Player] ([2] browsable assets)...
+[2026.05.20-15.03.55:881][643]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2026.05.20-15.03.55:881][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Player/BP_Player.uasset" SILENT=true
+[2026.05.20-15.03.55:897][643]LogSavePackage: Moving output files for package: /Game/Player/BP_Player
+[2026.05.20-15.03.55:897][643]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/BP_PlayerEED6159A481ADAF9BA6D39B839092610.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Player/BP_Player.uasset'
+[2026.05.20-15.03.55:909][643]LogFileHelpers: InternalPromptForCheckoutAndSave took 141.492 ms (total: 5.04 sec)
+[2026.05.20-15.03.56:031][643]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-15.03.56:031][643]LogContentValidation: Enabled validators:
+[2026.05.20-15.03.56:031][643]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-15.03.56:031][643]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-15.03.56:031][643]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-15.03.56:031][643]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-15.03.56:031][643]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-15.03.56:031][643]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-15.03.56:032][643]AssetCheck: /Game/Player/BP_Player Validating asset
+[2026.05.20-15.04.15:275][724]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'DefaultForeground'.'
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: ================================================
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: Total job queries 300, among them cache hits 25 (8.33%), DDC hits 202 (67.33%), Duplicates 65 (21.67%)
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: Tracking 210 distinct input hashes that result in 116 distinct outputs (55.24%)
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: RAM used: 1,03 MiB of 1,60 GiB budget. Usage: 0.06%
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: Shaders Compiled: 8
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: Jobs assigned 8, completed 8 (100%)
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: Average time worker was idle: 40.66 s
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.11 s
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: Job execution time: average 0.94 s, max 1.27 s
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: Job life time (pending + execution): average 1.01 s, max 1.37
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: Shader code size: total 73,594 KiB, numShaders 8, average 9,199 KiB, min 5,824 KiB, max 12,039 KiB
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.56 s
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.02%
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: Jobs were issued in 8 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: Average processing rate: 2.25 jobs/sec
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: Total thread time: 3,595 s
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: Total thread preprocess time: 3,471 s
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: Percentage time preprocessing: 96.55%
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: Effective parallelization: 1.01 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.126313
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled    2 times, average 0.64 sec, max 0.64 sec, min 0.63 sec)
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.43 sec, max 0.44 sec, min 0.43 sec)
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    2 times, average 0.41 sec, max 0.42 sec, min 0.41 sec)
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display:                                                 FLumenCardPS (compiled    2 times, average 0.31 sec, max 0.32 sec, min 0.31 sec)
+[2026.05.20-15.04.20:797][ 45]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialPS (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.20-15.04.20:798][ 45]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.05.20-15.04.20:798][ 45]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 35.52% of total time (compiled    2 times, average 0.64 sec, max 0.64 sec, min 0.63 sec)
+[2026.05.20-15.04.20:798][ 45]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.18% of total time (compiled    2 times, average 0.43 sec, max 0.44 sec, min 0.43 sec)
+[2026.05.20-15.04.20:798][ 45]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 22.93% of total time (compiled    2 times, average 0.41 sec, max 0.42 sec, min 0.41 sec)
+[2026.05.20-15.04.20:798][ 45]LogShaderCompilers: Display:                                                 FLumenCardPS - 17.37% of total time (compiled    2 times, average 0.31 sec, max 0.32 sec, min 0.31 sec)
+[2026.05.20-15.04.20:798][ 45]LogShaderCompilers: Display:                                 FLandscapePhysicalMaterialPS - 0.00% of total time (compiled    0 times, average 0.00 sec, max 0.00 sec, min 0.00 sec)
+[2026.05.20-15.04.20:798][ 45]LogShaderCompilers: Display: === Material stats ===
+[2026.05.20-15.04.20:798][ 45]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.05.20-15.04.20:798][ 45]LogShaderCompilers: Display: Materials Translated:    138
+[2026.05.20-15.04.20:798][ 45]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2026.05.20-15.04.20:798][ 45]LogShaderCompilers: Display: Material Translation Only: 0.03 s (38%)
+[2026.05.20-15.04.20:798][ 45]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2026.05.20-15.04.20:798][ 45]LogShaderCompilers: Display: Material Cache Hits: 18 (13%)
+[2026.05.20-15.04.20:798][ 45]LogShaderCompilers: Display: ================================================
+[2026.05.20-15.05.35:616][524]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10341.170898
+[2026.05.20-15.05.35:816][536]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-15.05.35:816][536]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10341.353516, Update Interval: 307.679688
+[2026.05.20-15.06.36:156][110]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.20-15.06.36:237][110]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Player/BP_Player] ([2] browsable assets)...
+[2026.05.20-15.06.36:238][110]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_11
+[2026.05.20-15.06.36:253][110]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Player/BP_Player.BP_Player_C]
+[2026.05.20-15.06.36:253][110]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_12
+[2026.05.20-15.06.36:269][110]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Player/BP_Player.BP_Player]
+[2026.05.20-15.06.36:269][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/Player/BP_Player]
+[2026.05.20-15.06.36:269][110]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/BP_Player" FILE="../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Player/BP_Player.uasset" SILENT=true
+[2026.05.20-15.06.36:288][110]LogSavePackage: Moving output files for package: /Game/Player/BP_Player
+[2026.05.20-15.06.36:288][110]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/BP_Player03938C744E66ECF87425369D70789296.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Player/BP_Player.uasset'
+[2026.05.20-15.06.36:299][110]LogFileHelpers: InternalPromptForCheckoutAndSave took 143.459 ms (total: 5.18 sec)
+[2026.05.20-15.06.36:410][110]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.20-15.06.36:410][110]LogContentValidation: Enabled validators:
+[2026.05.20-15.06.36:410][110]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.20-15.06.36:410][110]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.20-15.06.36:410][110]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.20-15.06.36:410][110]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.20-15.06.36:410][110]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.20-15.06.36:410][110]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.20-15.06.36:410][110]AssetCheck: /Game/Player/BP_Player Validating asset
+[2026.05.20-15.06.37:046][147]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.05.20-15.06.37:067][147]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2026.05.20-15.06.37:186][147]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2026.05.20-15.06.37:192][147]LogPlayLevel: PlayLevel: Blueprint regeneration took 138 ms (1 blueprints)
+[2026.05.20-15.06.37:192][147]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-15.06.37:193][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001304s)
+[2026.05.20-15.06.37:193][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/GymRoom.GymRoom to /Game/Scene/UEDPIE_0_GymRoom.GymRoom (0.001340s)
+[2026.05.20-15.06.37:218][147]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.05.20-15.06.37:222][147]LogChaosDD: Creating Chaos Debug Draw Scene for world GymRoom
+[2026.05.20-15.06.37:223][147]LogPlayLevel: PIE: World Init took: (0.001960s)
+[2026.05.20-15.06.37:224][147]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2026.05.20-15.06.37:224][147]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.20-15.06.37:224][147]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.20-15.06.37:224][147]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.20-15.06.37:224][147]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.20-15.06.37:224][147]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.20-15.06.37:224][147]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.20-15.06.37:224][147]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.20-15.06.37:224][147]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.20-15.06.37:224][147]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.20-15.06.37:224][147]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.20-15.06.37:224][147]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.20-15.06.37:227][147]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.20-15.06.37:282][147]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.05.20-15.06.37:283][147]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.20-15.06.37:283][147]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.20-15.06.37:283][147]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.20-15.06.37:283][147]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2026.05.20-15.06.37:283][147]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2026.05.20-15.06.37:285][147]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2026.05.20-15.06.37:285][147]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2026.05.20-15.06.37:285][147]LogInit: FAudioDevice initialized with ID 9.
+[2026.05.20-15.06.37:285][147]LogAudio: Display: Audio Device (ID: 9) registered with world 'GymRoom'.
+[2026.05.20-15.06.37:285][147]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2026.05.20-15.06.37:346][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-15.06.37:347][147]LogLoad: Game class is 'GM_Platformer3D_C'
+[2026.05.20-15.06.37:347][147]LogWorld: Bringing World /Game/Scene/UEDPIE_0_GymRoom.GymRoom up for play (max tick rate 60) at 2026.05.20-17.06.37
+[2026.05.20-15.06.37:347][147]LogWorld: Bringing up level for play took: 0.000649
+[2026.05.20-15.06.37:350][147]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2026.05.20-15.06.37:356][147]PIE: Server logged in
+[2026.05.20-15.06.37:357][147]PIE: Play in editor total start time 0,304 seconds.
+[2026.05.20-15.06.37:534][148]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.20-15.06.38:523][196]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.06.38:523][196]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.06.40:044][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-15.06.40:044][285]LogWorld: BeginTearingDown for /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-15.06.40:045][285]LogSlate: Window 'platformer3D Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.05.20-15.06.40:051][285]LogWorld: UWorld::CleanupWorld for GymRoom, bSessionEnded=true, bCleanupResources=true
+[2026.05.20-15.06.40:051][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-15.06.40:053][285]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.20-15.06.40:059][285]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-15.06.40:088][285]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2026.05.20-15.06.40:089][285]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2026.05.20-15.06.40:091][285]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2026.05.20-15.06.40:101][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2026.05.20-15.06.40:142][286]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2026.05.20-15.06.57:221][276]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.05.20-15.06.57:231][276]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2026.05.20-15.06.57:330][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.05.20-15.06.57:333][276]LogPlayLevel: PlayLevel: Blueprint regeneration took 105 ms (1 blueprints)
+[2026.05.20-15.06.57:334][276]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-15.06.57:335][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001321s)
+[2026.05.20-15.06.57:335][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/GymRoom.GymRoom to /Game/Scene/UEDPIE_0_GymRoom.GymRoom (0.001369s)
+[2026.05.20-15.06.57:361][276]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2026.05.20-15.06.57:364][276]LogChaosDD: Creating Chaos Debug Draw Scene for world GymRoom
+[2026.05.20-15.06.57:366][276]LogPlayLevel: PIE: World Init took: (0.001749s)
+[2026.05.20-15.06.57:366][276]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2026.05.20-15.06.57:366][276]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.20-15.06.57:366][276]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.20-15.06.57:366][276]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.20-15.06.57:366][276]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.20-15.06.57:366][276]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.20-15.06.57:366][276]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.20-15.06.57:366][276]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.20-15.06.57:366][276]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.20-15.06.57:366][276]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.20-15.06.57:366][276]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.20-15.06.57:366][276]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.20-15.06.57:369][276]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.20-15.06.57:423][276]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.05.20-15.06.57:424][276]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.20-15.06.57:424][276]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.20-15.06.57:424][276]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.20-15.06.57:424][276]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2026.05.20-15.06.57:424][276]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2026.05.20-15.06.57:427][276]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2026.05.20-15.06.57:427][276]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2026.05.20-15.06.57:427][276]LogInit: FAudioDevice initialized with ID 10.
+[2026.05.20-15.06.57:427][276]LogAudio: Display: Audio Device (ID: 10) registered with world 'GymRoom'.
+[2026.05.20-15.06.57:427][276]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2026.05.20-15.06.57:492][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-15.06.57:492][276]LogLoad: Game class is 'GM_Platformer3D_C'
+[2026.05.20-15.06.57:493][276]LogWorld: Bringing World /Game/Scene/UEDPIE_0_GymRoom.GymRoom up for play (max tick rate 60) at 2026.05.20-17.06.57
+[2026.05.20-15.06.57:493][276]LogWorld: Bringing up level for play took: 0.000669
+[2026.05.20-15.06.57:495][276]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2026.05.20-15.06.57:501][276]PIE: Server logged in
+[2026.05.20-15.06.57:503][276]PIE: Play in editor total start time 0,275 seconds.
+[2026.05.20-15.06.57:651][277]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.20-15.06.58:633][327]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.06.58:633][327]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.08:871][941]LogBlueprintUserMessages: [BP_Player_C_0] stop
+[2026.05.20-15.07.11:045][ 69]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-15.07.11:045][ 69]LogWorld: BeginTearingDown for /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-15.07.11:046][ 69]LogSlate: Window 'platformer3D Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.05.20-15.07.11:053][ 69]LogWorld: UWorld::CleanupWorld for GymRoom, bSessionEnded=true, bCleanupResources=true
+[2026.05.20-15.07.11:053][ 69]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-15.07.11:054][ 69]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.20-15.07.11:059][ 69]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-15.07.11:089][ 69]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2026.05.20-15.07.11:089][ 69]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2026.05.20-15.07.11:091][ 69]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2026.05.20-15.07.11:101][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.05.20-15.07.11:143][ 70]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2026.05.20-15.07.23:788][803]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.05.20-15.07.23:797][803]LogPlayLevel: [PlayLevel] Compiling BP_Player before play...
+[2026.05.20-15.07.23:901][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2026.05.20-15.07.23:907][803]LogPlayLevel: PlayLevel: Blueprint regeneration took 112 ms (1 blueprints)
+[2026.05.20-15.07.23:907][803]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-15.07.23:909][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001293s)
+[2026.05.20-15.07.23:909][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/GymRoom.GymRoom to /Game/Scene/UEDPIE_0_GymRoom.GymRoom (0.001327s)
+[2026.05.20-15.07.23:933][803]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2026.05.20-15.07.23:936][803]LogChaosDD: Creating Chaos Debug Draw Scene for world GymRoom
+[2026.05.20-15.07.23:937][803]LogPlayLevel: PIE: World Init took: (0.001691s)
+[2026.05.20-15.07.23:938][803]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2026.05.20-15.07.23:938][803]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.20-15.07.23:938][803]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.20-15.07.23:938][803]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.20-15.07.23:938][803]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.20-15.07.23:938][803]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.20-15.07.23:938][803]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.20-15.07.23:938][803]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.20-15.07.23:938][803]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.20-15.07.23:938][803]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.20-15.07.23:938][803]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.20-15.07.23:938][803]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.20-15.07.23:941][803]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.20-15.07.23:996][803]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.05.20-15.07.23:996][803]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.20-15.07.23:996][803]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.20-15.07.23:996][803]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.20-15.07.23:996][803]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2026.05.20-15.07.23:996][803]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2026.05.20-15.07.23:999][803]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2026.05.20-15.07.23:999][803]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2026.05.20-15.07.23:999][803]LogInit: FAudioDevice initialized with ID 11.
+[2026.05.20-15.07.23:999][803]LogAudio: Display: Audio Device (ID: 11) registered with world 'GymRoom'.
+[2026.05.20-15.07.23:999][803]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2026.05.20-15.07.24:060][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-15.07.24:060][803]LogLoad: Game class is 'GM_Platformer3D_C'
+[2026.05.20-15.07.24:061][803]LogWorld: Bringing World /Game/Scene/UEDPIE_0_GymRoom.GymRoom up for play (max tick rate 60) at 2026.05.20-17.07.24
+[2026.05.20-15.07.24:061][803]LogWorld: Bringing up level for play took: 0.000650
+[2026.05.20-15.07.24:064][803]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2026.05.20-15.07.24:071][803]PIE: Server logged in
+[2026.05.20-15.07.24:072][803]PIE: Play in editor total start time 0,277 seconds.
+[2026.05.20-15.07.24:218][804]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.20-15.07.25:198][859]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.25:198][859]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.29:031][ 89]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.29:031][ 89]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.30:180][158]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.30:181][158]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.30:247][162]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.30:247][162]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.30:314][166]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.30:314][166]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.30:380][170]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.30:380][170]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.30:447][174]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.30:447][174]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.30:947][204]LogBlueprintUserMessages: [BP_Player_C_0] stop
+[2026.05.20-15.07.30:964][205]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.30:964][205]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.31:047][210]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.31:047][210]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.31:197][219]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.31:197][219]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.31:263][223]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.31:263][223]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.31:814][256]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.31:814][256]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.31:880][260]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.31:881][260]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.31:947][264]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.31:947][264]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.32:014][268]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.32:014][268]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.32:080][272]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.32:080][272]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.32:463][295]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.32:464][295]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.32:547][300]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.32:548][300]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.32:848][318]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.32:848][318]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.32:914][322]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.32:915][322]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.33:198][339]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.33:198][339]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.33:265][343]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.33:265][343]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.33:347][348]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.33:347][348]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.34:114][394]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.34:114][394]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.35:581][482]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.35:581][482]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.35:647][486]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.35:648][486]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.35:714][490]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.35:714][490]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.36:263][523]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.36:263][523]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.36:380][530]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.36:381][530]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.36:447][534]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.36:447][534]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.36:514][538]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.36:514][538]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.36:630][545]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.36:630][545]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.36:748][552]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.36:748][552]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.36:813][556]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.36:814][556]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.36:880][560]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.36:880][560]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.36:947][564]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.36:947][564]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.37:014][568]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.37:014][568]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.37:130][575]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.37:130][575]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.37:248][582]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.37:248][582]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.37:313][586]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.37:313][586]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.37:381][590]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.37:381][590]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.37:480][596]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.37:480][596]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.37:581][602]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.37:581][602]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.37:697][609]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.37:697][609]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.37:831][617]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.37:831][617]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.37:897][621]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.37:897][621]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.37:964][625]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.37:964][625]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.38:080][632]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.38:080][632]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.38:197][639]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.38:197][639]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.38:331][647]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.38:331][647]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.38:481][656]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.38:481][656]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.38:614][664]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.38:614][664]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.38:680][668]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.38:680][668]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.39:280][704]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.39:281][704]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.40:298][765]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.40:298][765]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.41:247][822]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.41:248][822]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.41:313][826]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.41:313][826]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.41:981][866]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.41:981][866]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.42:048][870]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.42:048][870]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.42:514][898]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.42:514][898]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.43:297][945]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.43:297][945]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.43:364][949]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.43:364][949]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.44:164][997]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.44:164][997]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.45:164][ 57]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.45:164][ 57]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.45:981][106]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.45:981][106]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.46:847][158]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.46:847][158]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.47:713][210]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.47:714][210]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.48:581][262]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.48:581][262]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.49:447][314]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.49:447][314]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.50:314][366]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.50:314][366]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.51:181][418]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.51:181][418]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.52:681][508]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.52:681][508]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.53:564][561]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.53:564][561]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.55:048][650]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.55:048][650]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.56:014][708]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.56:015][708]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.57:331][787]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.57:331][787]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.07.58:647][866]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.07.58:648][866]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.08.03:481][156]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.08.03:481][156]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.08.04:638][224]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.08.04:638][224]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.08.05:756][291]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.08.05:756][291]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.08.07:188][377]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.08.07:188][377]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.08.26:856][557]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.08.26:856][557]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.08.28:505][656]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.08.28:505][656]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.08.29:373][708]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.08.29:373][708]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.08.30:239][760]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.08.30:239][760]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.08.31:322][825]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.08.31:322][825]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.08.32:422][891]LogScript: Warning: Script Msg: ParckourMovement ResetWallRunSuppression SetTimer passed a negative or zero time. The associated timer may fail to be created/fire! If using InitialStartDelayVariance, be sure it is smaller than (Time + InitialStartDelay).
+[2026.05.20-15.08.32:422][891]LogScript: Warning: Script Msg called by: ParckourMovement_C /Game/Scene/UEDPIE_0_GymRoom.GymRoom:PersistentLevel.BP_Player_C_0.ParckourMovement
+[2026.05.20-15.10.16:017][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.20-15.10.16:017][101]LogWorld: BeginTearingDown for /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.20-15.10.16:018][101]LogSlate: Window 'platformer3D Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.05.20-15.10.16:026][101]LogWorld: UWorld::CleanupWorld for GymRoom, bSessionEnded=true, bCleanupResources=true
+[2026.05.20-15.10.16:027][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-15.10.16:028][101]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.20-15.10.16:034][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-15.10.16:061][101]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2026.05.20-15.10.16:061][101]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=4
+[2026.05.20-15.10.16:063][101]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=2
+[2026.05.20-15.10.16:073][101]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2026.05.20-15.10.16:110][102]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2026.05.20-15.11.29:761][396]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10695.073242
+[2026.05.20-15.11.30:761][399]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-15.11.30:761][399]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10695.740234, Update Interval: 306.408875
+[2026.05.20-15.15.10:552][ 59]LogDerivedDataCache: C:/Users/md200/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
