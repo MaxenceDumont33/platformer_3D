@@ -2605,3 +2605,42 @@ Script Stack (0 frames) :
 [2026.05.20-14.36.44:927][683]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2026.05.20-14.36.44:927][683]AssetCheck: /Game/Player/BP_Player Validating asset
 [2026.05.20-14.36.47:782][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.05.20-14.38.33:307][730]LogFab: Display: Logging in using persist
+[2026.05.20-14.38.33:490][730]LogWebBrowser: Loaded CEF3 version 90.6.7.2358 from C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/ThirdParty/CEF3/Win64/
+[2026.05.20-14.38.33:513][730]LogCEFBrowser: CEF GPU acceleration enabled
+[2026.05.20-14.38.34:047][741]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: f9d...bac Access[Expires: 2026.05.20-16.38.33 Remaining: 7200.78] Refresh[Expires: 2026-11-16T14:38:33.777Z Remaining: 15552000.78] State: Valid
+[2026.05.20-14.38.34:063][742]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Received FUserAuthToken
+[2026.05.20-14.38.34:282][755]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Login complete: EOS_Success
+[2026.05.20-14.38.34:282][755]LogFab: Display: User logged in
+[2026.05.20-14.38.34:282][755]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
+[2026.05.20-14.38.34:481][767]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-i76zLCJPi0O7jpvKyJFpig-nl5j94HfrUWfHnneJtY5Kg]
+[2026.05.20-14.38.50:239][467]LogAudioMixer: Display: FMixerPlatformXAudio2: Changing default audio render device to new device: Role=Console, DeviceName=Speakers (Realtek(R) Audio), InstanceID=1
+[2026.05.20-14.38.50:239][467]LogAudioMixer: Display: Attempt to swap audio render device to new device: '{0.0.0.00000000}.{b8898f51-d439-447f-92be-1b501aac640f}', because: 'FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged', force=1
+[2026.05.20-14.38.50:431][467]LogAudioMixer: Display: FMixerPlatformXAudio2::PreDeviceSwap - Starting swap to [{0.0.0.00000000}.{b8898f51-d439-447f-92be-1b501aac640f}]
+[2026.05.20-14.38.50:432][467]LogAudioMixer: Display: FMixerPlatformXAudio2::EnqueueAsyncDeviceSwap - enqueuing async device swap
+[2026.05.20-14.38.50:432][467]LogAudioMixer: Display: FMixerPlatformXAudio2::PerformDeviceSwap - AsyncTask Start. Because=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged
+[2026.05.20-14.38.50:767][468]LogAudioMixer: Display: FMixerPlatformXAudio2::PostDeviceSwap - successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{b8898f51-d439-447f-92be-1b501aac640f}, Name=Speakers (Realtek(R) Audio)), Reason=FMixerPlatformXAudio2::OnDefaultRenderDeviceChanged, InstanceID=1, DurationMS=322.79
+[2026.05.20-14.38.50:767][468]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=1
+[2026.05.20-14.38.50:767][468]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2026.05.20-14.38.50:769][468]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2026.05.20-14.39.34:230][483]LogEOSSDK: Error: LogEOSAuth: Authentication session lost due to failing verification. Error: EOS_Auth_InvalidToken UserId: f9d...bac
+[2026.05.20-14.39.34:231][483]LogEOSSDK: Warning: LogEOSPresence: Can't set presence to offline, No connection to EpicConnect. LocalUserId=[f9d...bac]
+[2026.05.20-14.40.59:453][422]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8865.373047
+[2026.05.20-14.40.59:635][432]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-14.40.59:635][432]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8865.539062, Update Interval: 307.318939
+[2026.05.20-14.44.25:404][619]LogFab: Display: Add listing to project - c857a3c1-5be5-4d37-a34f-2158e7da6763
+[2026.05.20-14.44.25:404][619]LogFab: Display: Listing type - unreal-engine
+[2026.05.20-14.44.25:404][619]LogFab: Display: Base Url https://egdownload.fastly-edge.com/Builds/Rocket/Automated/SciFITro8bcdbd25f987V1/CloudDir,https://epicgames-download1.akamaized.net/Builds/Rocket/Automated/SciFITro8bcdbd25f987V1/CloudDir,https://egs-cloudfront-chunks.epicgamescdn.com/Builds/Rocket/Automated/SciFITro8bcdbd25f987V1/CloudDir
+[2026.05.20-14.44.25:781][624]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 18414374086312883402
+[2026.05.20-14.44.25:781][624]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2026.05.20-14.44.25:788][624]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.20-14.46.13:351][ 70]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2026.05.20-14.46.13:351][ 70]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2026.05.20-14.46.13:351][ 70]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Developers/md200/Collections/' because it could not be accessed. Aborting watch request...
+[2026.05.20-14.46.39:248][590]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9204.968750
+[2026.05.20-14.46.39:415][600]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.20-14.46.39:415][600]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9205.118164, Update Interval: 319.779663
+[2026.05.20-14.46.59:377][679]LogSlate: Window 'Fab' being destroyed
+[2026.05.20-14.46.59:384][679]LogSlate: Window 'Fab' being destroyed
+[2026.05.20-14.47.00:879][768]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2026.05.20-14.47.00:879][768]LogWebBrowser: Deleting browser for Url=https://www.fab.com/plugins/ue5/listings/c857a3c1-5be5-4d37-a34f-2158e7da6763.
