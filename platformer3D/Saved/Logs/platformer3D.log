@@ -6768,3 +6768,6 @@ FPackageName: Skipped package /Engine/EngineMeshes/Humanoid has a valid, mounted
 [2026.05.21-11.26.23:096][256]AssetCheck: /Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Down_Right Validating asset
 [2026.05.21-11.26.25:965][423]AssetReimport: Reimported asset anim_Climb_Up_Left from C:/Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climbing_Up_Left.fbx.
 [2026.05.21-11.26.25:965][423]AssetReimport: Reimported asset anim_Climb_Down_Right from C:/Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climbing_Down_Right.fbx.
+[2026.05.21-11.31.54:584][470]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13695.765625
+[2026.05.21-11.31.55:583][473]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-11.31.55:583][473]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13696.431641, Update Interval: 320.026855
