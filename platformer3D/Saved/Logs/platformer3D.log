@@ -6612,3 +6612,122 @@ FPackageName: Skipped package /Engine/EngineMeshes/Humanoid has a valid, mounted
 [2026.05.21-08.52.07:020][159]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Login complete: EOS_Success
 [2026.05.21-08.52.07:020][159]LogFab: Display: User logged in
 [2026.05.21-08.52.07:020][159]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
+[2026.05.21-08.54.59:192][114]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4280.545898
+[2026.05.21-08.55.00:191][117]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-08.55.00:191][117]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4281.211914, Update Interval: 323.765991
+[2026.05.21-09.01.17:921][250]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4659.272461
+[2026.05.21-09.01.18:922][253]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-09.01.18:922][253]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4659.939453, Update Interval: 318.604095
+[2026.05.21-09.07.21:982][342]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5023.328125
+[2026.05.21-09.07.22:985][345]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-09.07.22:985][345]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5023.998047, Update Interval: 346.283142
+[2026.05.21-09.14.04:721][550]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5426.076172
+[2026.05.21-09.14.05:719][553]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-09.14.05:719][553]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5426.742676, Update Interval: 349.624939
+[2026.05.21-09.20.52:115][772]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5833.481445
+[2026.05.21-09.20.53:118][775]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-09.20.53:118][775]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5834.151367, Update Interval: 331.897949
+[2026.05.21-09.27.20:852][938]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6222.212402
+[2026.05.21-09.27.21:853][941]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-09.27.21:853][941]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6222.877441, Update Interval: 317.968689
+[2026.05.21-09.33.35:917][ 63]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6597.274414
+[2026.05.21-09.33.36:917][ 66]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-09.33.36:917][ 66]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6597.940430, Update Interval: 325.840637
+[2026.05.21-09.39.55:300][201]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 6976.663574
+[2026.05.21-09.39.56:303][204]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-09.39.56:303][204]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 6977.329590, Update Interval: 300.281982
+[2026.05.21-09.45.35:141][221]LogDerivedDataCache: C:/Users/md200/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.05.21-09.45.56:028][283]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7337.390137
+[2026.05.21-09.45.57:026][286]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-09.45.57:026][286]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7338.057129, Update Interval: 324.185303
+[2026.05.21-09.51.57:421][367]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 7698.781738
+[2026.05.21-09.51.58:419][370]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-09.51.58:419][370]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 7699.446289, Update Interval: 318.018127
+[2026.05.21-09.57.46:481][414]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8047.837402
+[2026.05.21-09.57.47:483][417]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-09.57.47:483][417]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8048.506348, Update Interval: 311.041595
+[2026.05.21-10.03.42:542][482]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8403.897461
+[2026.05.21-10.03.43:544][485]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-10.03.43:544][485]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8404.565430, Update Interval: 327.118744
+[2026.05.21-10.10.02:609][622]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8783.979492
+[2026.05.21-10.10.03:608][625]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-10.10.03:608][625]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8784.646484, Update Interval: 300.540192
+[2026.05.21-10.15.50:332][665]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9131.693359
+[2026.05.21-10.15.51:332][668]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-10.15.51:332][668]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9132.360352, Update Interval: 310.906097
+[2026.05.21-10.21.44:713][728]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9486.071289
+[2026.05.21-10.21.45:715][731]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-10.21.45:716][731]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9486.738281, Update Interval: 348.002563
+[2026.05.21-10.28.06:100][872]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9867.454102
+[2026.05.21-10.28.07:101][875]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-10.28.07:101][875]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9868.121094, Update Interval: 335.629761
+[2026.05.21-10.34.40:497][ 55]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10261.841797
+[2026.05.21-10.34.41:495][ 58]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-10.34.41:495][ 58]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10262.506836, Update Interval: 344.668121
+[2026.05.21-10.41.06:223][212]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10647.574219
+[2026.05.21-10.41.07:221][215]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-10.41.07:221][215]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10648.238281, Update Interval: 337.957092
+[2026.05.21-10.45.35:143][ 19]LogDerivedDataCache: C:/Users/md200/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.001 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.05.21-10.47.31:954][369]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11033.305664
+[2026.05.21-10.47.32:954][372]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-10.47.32:955][372]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11033.970703, Update Interval: 340.343018
+[2026.05.21-10.50.27:986][897]LogEOSSDK: LogEOSAuth: Refreshing authentication session. AccessTokenExpired: No RefreshRequired: Yes VerifyRequired: No UserId: f9d...bac
+[2026.05.21-10.50.27:987][897]LogEOSSDK: LogEOSAuth: Refresh authentication session. AuthState: 1 AccessExpires: 99.91 RefreshExpires: 1.548e+07
+[2026.05.21-10.50.28:986][900]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: f9d...bac Access[Expires: 2026.05.21-12.50.28 Remaining: 7200.13] Refresh[Expires: 2026-11-16T14:38:33.777Z Remaining: 15479285.78] State: Valid
+[2026.05.21-10.53.52:689][511]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11414.032227
+[2026.05.21-10.53.53:690][514]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-10.53.53:690][514]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11414.699219, Update Interval: 332.628571
+[2026.05.21-10.55.03:796][725]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 1 segments. Attempt 1 out of 16 tries.
+[2026.05.21-10.55.03:796][725]LogUdpMessaging: Warning: Waiting for ack too long. Re-sending 2 segments. Attempt 1 out of 16 tries.
+[2026.05.21-11.00.18:081][667]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11799.421875
+[2026.05.21-11.00.19:081][670]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-11.00.19:081][670]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11800.089844, Update Interval: 336.984772
+[2026.05.21-11.06.30:158][783]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12171.475586
+[2026.05.21-11.06.31:159][786]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-11.06.31:159][786]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12172.143555, Update Interval: 338.583344
+[2026.05.21-11.13.03:893][964]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12565.181641
+[2026.05.21-11.13.04:893][967]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-11.13.04:893][967]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12565.848633, Update Interval: 336.215698
+[2026.05.21-11.13.58:819][944]LogFab: Display: Add listing to project - 481ef75b-892b-424f-a213-f1cc058c9c19
+[2026.05.21-11.13.58:819][944]LogFab: Display: Listing type - unreal-engine
+[2026.05.21-11.13.58:820][944]LogFab: Display: Base Url https://egdownload.fastly-edge.com/Builds/Rocket/Automated/FreeAnimd61b5f5d32dcV1/CloudDir,https://epicgames-download1.akamaized.net/Builds/Rocket/Automated/FreeAnimd61b5f5d32dcV1/CloudDir,https://egs-cloudfront-chunks.epicgamescdn.com/Builds/Rocket/Automated/FreeAnimd61b5f5d32dcV1/CloudDir
+[2026.05.21-11.16.06:893][598]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2026.05.21-11.16.06:893][598]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2026.05.21-11.16.06:894][598]LogDirectoryWatcher: Display: A directory notification failed for 'C:/Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Developers/md200/Collections/' because it could not be accessed. Aborting watch request...
+[2026.05.21-11.16.59:440][701]LogInterchangeEngine: [Pending] Importing
+[2026.05.21-11.16.59:914][701]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2026.05.21-11.16.59:914][701]LogInterchangeEngine: [Success] Import Done
+[2026.05.21-11.17.00:085][701]LogSlate: Took 0.008515 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2026.05.21-11.17.00:189][702]LogInterchangeEngine: [Pending] Importing
+[2026.05.21-11.17.00:957][702]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2026.05.21-11.17.00:957][702]LogInterchangeEngine: [Success] Import Done
+[2026.05.21-11.17.01:052][703]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.21-11.17.01:192][703]LogStreaming: Display: FlushAsyncLoading(547): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.21-11.17.01:193][703]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Down_Right] ([1] browsable assets)...
+[2026.05.21-11.17.01:193][703]OBJ SavePackage: Finished generating thumbnails for package [/Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Down_Right]
+[2026.05.21-11.17.01:215][703]LogSavePackage: Moving output files for package: /Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Down_Right
+[2026.05.21-11.17.01:216][703]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/anim_Climb_Down_Right35C95D3044428E603A4D28A5070F3C7A.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Down_Right.uasset'
+[2026.05.21-11.17.01:218][703]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Up_Left] ([1] browsable assets)...
+[2026.05.21-11.17.01:220][703]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2026.05.21-11.17.01:394][703]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Up_Left.anim_Climb_Up_Left]
+[2026.05.21-11.17.01:394][703]OBJ SavePackage: Finished generating thumbnails for package [/Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Up_Left]
+[2026.05.21-11.17.01:416][703]LogSavePackage: Moving output files for package: /Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Up_Left
+[2026.05.21-11.17.01:416][703]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/anim_Climb_Up_Left16F760C54E89C97A67E7739825C39C9E.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Up_Left.uasset'
+[2026.05.21-11.17.01:434][703]LogFileHelpers: InternalPromptForCheckoutAndSave took 382.446 ms (total: 2.12 sec)
+[2026.05.21-11.17.01:456][703]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/SourceControl/UncontrolledChangelists.json
+[2026.05.21-11.17.01:565][704]LogContentValidation: Display: Starting to validate 2 assets
+[2026.05.21-11.17.01:565][704]LogContentValidation: Enabled validators:
+[2026.05.21-11.17.01:565][704]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.21-11.17.01:565][704]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.21-11.17.01:565][704]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.21-11.17.01:565][704]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.21-11.17.01:565][704]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.21-11.17.01:565][704]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.21-11.17.01:565][704]AssetCheck: /Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Down_Right Validating asset
+[2026.05.21-11.17.01:565][704]AssetCheck: /Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Up_Left Validating asset
+[2026.05.21-11.17.04:449][873]AssetReimport: Reimported asset anim_Climb_Down_Right from C:/Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climbing_Down_Right.fbx.
+[2026.05.21-11.17.04:449][873]AssetReimport: Reimported asset anim_Climb_Up_Left from C:/Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climbing_Up_Left.fbx.
+[2026.05.21-11.17.12:217][ 54]LogSlate: Window 'Fab' being destroyed
+[2026.05.21-11.17.12:227][ 54]LogSlate: Window 'Fab' being destroyed
+[2026.05.21-11.17.13:717][142]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2026.05.21-11.17.13:717][142]LogWebBrowser: Deleting browser for Url=https://www.fab.com/plugins/ue5/listings/481ef75b-892b-424f-a213-f1cc058c9c19.
