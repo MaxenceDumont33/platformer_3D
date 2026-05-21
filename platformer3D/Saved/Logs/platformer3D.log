@@ -6737,3 +6737,34 @@ FPackageName: Skipped package /Engine/EngineMeshes/Humanoid has a valid, mounted
 [2026.05.21-11.26.02:746][857]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13343.954102
 [2026.05.21-11.26.03:749][860]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2026.05.21-11.26.03:749][860]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13344.623047, Update Interval: 300.974152
+[2026.05.21-11.26.21:769][253]LogInterchangeEngine: [Pending] Importing
+[2026.05.21-11.26.22:068][253]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2026.05.21-11.26.22:068][253]LogInterchangeEngine: [Success] Import Done
+[2026.05.21-11.26.22:243][254]LogInterchangeEngine: [Pending] Importing
+[2026.05.21-11.26.22:538][254]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2026.05.21-11.26.22:538][254]LogInterchangeEngine: [Success] Import Done
+[2026.05.21-11.26.22:668][255]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.21-11.26.22:813][255]LogStreaming: Display: FlushAsyncLoading(552): 1 QueuedPackages, 0 AsyncPackages
+[2026.05.21-11.26.22:814][255]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Up_Left] ([1] browsable assets)...
+[2026.05.21-11.26.22:888][255]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Up_Left.anim_Climb_Up_Left]
+[2026.05.21-11.26.22:888][255]OBJ SavePackage: Finished generating thumbnails for package [/Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Up_Left]
+[2026.05.21-11.26.22:906][255]LogSavePackage: Moving output files for package: /Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Up_Left
+[2026.05.21-11.26.22:907][255]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/anim_Climb_Up_Left9CA0EB6B4F0356E16B691CBCC3236D4A.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Up_Left.uasset'
+[2026.05.21-11.26.22:909][255]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Down_Right] ([1] browsable assets)...
+[2026.05.21-11.26.22:918][255]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Down_Right.anim_Climb_Down_Right]
+[2026.05.21-11.26.22:919][255]OBJ SavePackage: Finished generating thumbnails for package [/Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Down_Right]
+[2026.05.21-11.26.22:935][255]LogSavePackage: Moving output files for package: /Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Down_Right
+[2026.05.21-11.26.22:936][255]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/anim_Climb_Down_Right028C420C4467758D7FF3938B6BFED93A.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Down_Right.uasset'
+[2026.05.21-11.26.22:953][255]LogFileHelpers: InternalPromptForCheckoutAndSave took 286.384 ms (total: 2.41 sec)
+[2026.05.21-11.26.23:096][256]LogContentValidation: Display: Starting to validate 2 assets
+[2026.05.21-11.26.23:096][256]LogContentValidation: Enabled validators:
+[2026.05.21-11.26.23:096][256]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.21-11.26.23:096][256]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.21-11.26.23:096][256]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.21-11.26.23:096][256]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.21-11.26.23:096][256]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.21-11.26.23:096][256]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.21-11.26.23:096][256]AssetCheck: /Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Up_Left Validating asset
+[2026.05.21-11.26.23:096][256]AssetCheck: /Game/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climb_Down_Right Validating asset
+[2026.05.21-11.26.25:965][423]AssetReimport: Reimported asset anim_Climb_Up_Left from C:/Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climbing_Up_Left.fbx.
+[2026.05.21-11.26.25:965][423]AssetReimport: Reimported asset anim_Climb_Down_Right from C:/Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/FreeAnimationLibrary/Animations/Climbing_Animations/Climbing/anim_Climbing_Down_Right.fbx.
