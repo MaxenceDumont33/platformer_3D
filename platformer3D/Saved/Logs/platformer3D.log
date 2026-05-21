@@ -6438,3 +6438,177 @@ FPackageName: Skipped package /Engine/EngineMeshes/Humanoid has a valid, mounted
 [2026.05.21-08.40.36:510][114]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33, StreamState=2
 [2026.05.21-08.40.36:518][114]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
 [2026.05.21-08.40.36:544][115]LogPlayLevel: Display: Destroying online subsystem :Context_46
+[2026.05.21-08.42.15:482][243]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.05.21-08.42.15:564][243]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Component/ParckourMovement] ([2] browsable assets)...
+[2026.05.21-08.42.15:564][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/Component/ParckourMovement]
+[2026.05.21-08.42.15:595][243]LogSavePackage: Moving output files for package: /Game/Component/ParckourMovement
+[2026.05.21-08.42.15:595][243]LogSavePackage: Moving '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Saved/ParckourMovement6A21EBA940674E6131ADB98B4976BA15.tmp' to '../../../../../../Users/md200/OneDrive/Documents/GitHub/platformer_3D/platformer3D/Content/Component/ParckourMovement.uasset'
+[2026.05.21-08.42.15:605][243]LogFileHelpers: InternalPromptForCheckoutAndSave took 122.861 ms (total: 1.74 sec)
+[2026.05.21-08.42.15:712][243]LogContentValidation: Display: Starting to validate 1 assets
+[2026.05.21-08.42.15:712][243]LogContentValidation: Enabled validators:
+[2026.05.21-08.42.15:712][243]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.05.21-08.42.15:712][243]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.05.21-08.42.15:712][243]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.05.21-08.42.15:712][243]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.05.21-08.42.15:712][243]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.05.21-08.42.15:712][243]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.05.21-08.42.15:713][243]AssetCheck: /Game/Component/ParckourMovement Validating asset
+[2026.05.21-08.42.22:995][451]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3524.357910
+[2026.05.21-08.42.23:994][454]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-08.42.23:994][454]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3525.024658, Update Interval: 345.764954
+[2026.05.21-08.42.50:439][673]LogDebuggerCommands: Repeating last play command: New Editor Window (PIE)
+[2026.05.21-08.42.50:446][673]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.05.21-08.42.50:446][673]LogPlayLevel: Creating play world package: /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.21-08.42.50:448][673]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001417s)
+[2026.05.21-08.42.50:448][673]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scene/GymRoom.GymRoom to /Game/Scene/UEDPIE_0_GymRoom.GymRoom (0.001457s)
+[2026.05.21-08.42.50:475][673]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.05.21-08.42.50:477][673]LogChaosDD: Creating Chaos Debug Draw Scene for world GymRoom
+[2026.05.21-08.42.50:478][673]LogPlayLevel: PIE: World Init took: (0.001929s)
+[2026.05.21-08.42.50:480][673]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2026.05.21-08.42.50:480][673]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.05.21-08.42.50:480][673]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.05.21-08.42.50:480][673]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.05.21-08.42.50:480][673]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.05.21-08.42.50:480][673]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.05.21-08.42.50:480][673]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.05.21-08.42.50:480][673]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.05.21-08.42.50:480][673]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.05.21-08.42.50:480][673]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.05.21-08.42.50:480][673]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.05.21-08.42.50:480][673]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.05.21-08.42.50:483][673]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.05.21-08.42.50:543][673]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.05.21-08.42.50:543][673]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.05.21-08.42.50:543][673]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.05.21-08.42.50:543][673]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.05.21-08.42.50:543][673]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2026.05.21-08.42.50:543][673]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2026.05.21-08.42.50:546][673]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2026.05.21-08.42.50:546][673]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2026.05.21-08.42.50:546][673]LogInit: FAudioDevice initialized with ID 34.
+[2026.05.21-08.42.50:546][673]LogAudio: Display: Audio Device (ID: 34) registered with world 'GymRoom'.
+[2026.05.21-08.42.50:546][673]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2026.05.21-08.42.50:612][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.21-08.42.50:612][673]LogLoad: Game class is 'GM_Platformer3D_C'
+[2026.05.21-08.42.50:613][673]LogWorld: Bringing World /Game/Scene/UEDPIE_0_GymRoom.GymRoom up for play (max tick rate 60) at 2026.05.21-10.42.50
+[2026.05.21-08.42.50:614][673]LogWorld: Bringing up level for play took: 0.000878
+[2026.05.21-08.42.50:616][673]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2026.05.21-08.42.50:622][673]PIE: Server logged in
+[2026.05.21-08.42.50:625][673]PIE: Play in editor total start time 0,179 seconds.
+[2026.05.21-08.42.50:732][674]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.05.21-08.42.52:938][804]LogBlueprintUserMessages: [BP_Player_C_0] stop
+[2026.05.21-08.42.53:837][858]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.53:853][859]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.53:870][860]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.53:886][861]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.53:903][862]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.53:937][864]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.53:953][865]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.53:970][866]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.53:987][867]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:003][868]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:037][870]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:053][871]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:070][872]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:087][873]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:103][874]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:137][876]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:153][877]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:170][878]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:187][879]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:203][880]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:236][882]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:253][883]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:270][884]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:286][885]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:303][886]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:337][888]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:353][889]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:370][890]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:387][891]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:403][892]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:436][894]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:453][895]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:470][896]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:487][897]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:503][898]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:537][900]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:553][901]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:570][902]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:587][903]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:603][904]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:636][906]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:653][907]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:670][908]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:686][909]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:703][910]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:737][912]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:753][913]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:770][914]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:786][915]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:803][916]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:837][918]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:853][919]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:870][920]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:887][921]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:903][922]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:937][924]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:953][925]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:969][926]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.54:986][927]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:003][928]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:036][930]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:053][931]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:069][932]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:086][933]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:103][934]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:137][936]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:153][937]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:170][938]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:187][939]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:203][940]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:236][942]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:253][943]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:270][944]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:287][945]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:303][946]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:337][948]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:353][949]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:371][950]LogBlueprintUserMessages: [ParckourMovement] wallruuningLeft
+[2026.05.21-08.42.55:396][950]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.05.21-08.42.55:396][950]LogWorld: BeginTearingDown for /Game/Scene/UEDPIE_0_GymRoom
+[2026.05.21-08.42.55:396][950]LogSlate: Window 'platformer3D Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2026.05.21-08.42.55:403][950]LogWorld: UWorld::CleanupWorld for GymRoom, bSessionEnded=true, bCleanupResources=true
+[2026.05.21-08.42.55:403][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.21-08.42.55:404][950]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.05.21-08.42.55:409][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.05.21-08.42.55:440][950]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2026.05.21-08.42.55:441][950]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34, StreamState=4
+[2026.05.21-08.42.55:442][950]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34, StreamState=2
+[2026.05.21-08.42.55:449][950]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2026.05.21-08.42.55:476][951]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2026.05.21-08.43.00:256][220]LogFab: Display: Logging in using persist
+[2026.05.21-08.43.00:415][220]LogWebBrowser: Loaded CEF3 version 90.6.7.2358 from C:/Program Files/Epic Games/UE_5.6/Engine/Binaries/ThirdParty/CEF3/Win64/
+[2026.05.21-08.43.00:436][220]LogCEFBrowser: CEF GPU acceleration enabled
+[2026.05.21-08.43.00:965][231]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: f9d...bac Access[Expires: 2026.05.21-10.43.00 Remaining: 7200.75] Refresh[Expires: 2026-11-16T14:38:33.777Z Remaining: 15486933.78] State: Valid
+[2026.05.21-08.43.00:982][232]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Received FUserAuthToken
+[2026.05.21-08.43.01:378][255]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Login complete: EOS_Success
+[2026.05.21-08.43.01:378][255]LogFab: Display: User logged in
+[2026.05.21-08.43.01:379][255]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
+[2026.05.21-08.43.01:597][268]LogEOSSDK: Warning: LogEOS: Error response received from backend. ServiceName=[Friend], OperationName=[GetBlockList], Url=[<Redacted>], HttpStatus=[403], ErrorCode=[errors.com.epicgames.common.insufficient_scopes], NumericErrorCode=[1056], ErrorMessage=[Insufficient access scopes. Expected: [friends_list]], CorrId=[EOS-TPAuy8zrSECsZ3giacc4mw-gV0oZvVLfkaVo3zBix61jg]
+[2026.05.21-08.45.35:141][853]LogDerivedDataCache: C:/Users/md200/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.05.21-08.48.42:117][ 28]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3903.493652
+[2026.05.21-08.48.42:302][ 39]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.05.21-08.48.42:302][ 39]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3903.659912, Update Interval: 317.287506
+[2026.05.21-08.51.52:557][861]LogSlate: Window 'Fab' being destroyed
+[2026.05.21-08.51.52:565][861]LogSlate: Window 'Fab' being destroyed
+[2026.05.21-08.51.54:261][924]LogWebBrowser: Closing browser during destruction, this may cause a later crash.
+[2026.05.21-08.51.54:261][924]LogWebBrowser: Deleting browser for Url=https://www.fab.com/plugins/ue5?listing_types=animation&is_free=1.
+[2026.05.21-08.52.06:586][134]LogFab: Display: Logging in using persist
+[2026.05.21-08.52.06:804][146]LogEOSSDK: LogEOSAuth: UpdateUserAuthToken: User ClientId: xyz...459 AccountId: f9d...bac Access[Expires: 2026.05.21-10.52.06 Remaining: 7200.57] Refresh[Expires: 2026-11-16T14:38:33.777Z Remaining: 15486387.78] State: Valid
+[2026.05.21-08.52.06:821][147]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Received FUserAuthToken
+[2026.05.21-08.52.07:020][159]LogEOSSDK: LogEOSAuth: UserAuthGenerated: Login complete: EOS_Success
+[2026.05.21-08.52.07:020][159]LogFab: Display: User logged in
+[2026.05.21-08.52.07:020][159]LogFab: Display: User client id: xyza7891REBVsEqSJRRNXmlS7EQHM459
